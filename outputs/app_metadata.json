@@ -1,0 +1,7369 @@
+{
+  "selected_model": "Voting Ensemble",
+  "models": {
+    "Voting Ensemble": {
+      "file": "voting_ensemble.joblib",
+      "R2": 0.7703327784149332,
+      "R2_log": 0.7955239390695591,
+      "RMSE": 9419.056037617436,
+      "MAE": 5551.683210988029,
+      "MAPE": 27.529746954949818,
+      "CV_R2_mean": 0.7871843061917456,
+      "CV_R2_std": 0.003152219166160447
+    },
+    "Stacking Ensemble": {
+      "file": "stacking_ensemble.joblib",
+      "R2": 0.7703450480731069,
+      "R2_log": 0.7956331486090442,
+      "RMSE": 9418.804434143794,
+      "MAE": 5540.9195692629455,
+      "MAPE": 27.542266632652247,
+      "CV_R2_mean": 0.786757062716004,
+      "CV_R2_std": 0.0030270989232371198
+    },
+    "Gradient Boosting": {
+      "file": "gradient_boosting.joblib",
+      "R2": 0.7527810672661186,
+      "R2_log": 0.7873096224223036,
+      "RMSE": 9772.3437681423,
+      "MAE": 5806.040815782355,
+      "MAPE": 28.338845470415485,
+      "CV_R2_mean": 0.7825321182240543,
+      "CV_R2_std": 0.0010631334784522671
+    },
+    "XGBoost": {
+      "file": "xgboost.joblib",
+      "R2": 0.7710646408509126,
+      "R2_log": 0.789554614181031,
+      "RMSE": 9404.036580939515,
+      "MAE": 5638.468780039674,
+      "MAPE": 27.993041835315136,
+      "CV_R2_mean": 0.7723146739403726,
+      "CV_R2_std": 0.001655129382799051
+    },
+    "Random Forest": {
+      "file": "random_forest.joblib",
+      "R2": 0.7665057307435976,
+      "R2_log": 0.7734384645152017,
+      "RMSE": 9497.208781714067,
+      "MAE": 5743.1202301952335,
+      "MAPE": 29.07375087170519,
+      "CV_R2_mean": 0.7676602671914309,
+      "CV_R2_std": 0.003513212770872561
+    },
+    "Linear Regression": {
+      "file": "linear_regression.joblib",
+      "R2": 0.7153355848722397,
+      "R2_log": 0.7688613963696765,
+      "RMSE": 10486.352751620925,
+      "MAE": 6000.041385909398,
+      "MAPE": 29.360422605707747,
+      "CV_R2_mean": 0.7610206955289508,
+      "CV_R2_std": 0.007612958576935013
+    },
+    "Decision Tree": {
+      "file": "decision_tree.joblib",
+      "R2": 0.7247529455442872,
+      "R2_log": 0.7169533452438632,
+      "RMSE": 10311.437469394115,
+      "MAE": 6343.663592471712,
+      "MAPE": 33.214841481574666,
+      "CV_R2_mean": 0.6942975102926493,
+      "CV_R2_std": 0.012899711933764286
+    }
+  },
+  "n_clean": 4466,
+  "n_test": 894,
+  "rent_cutoff": 102000.0,
+  "voting_weights": [
+    2,
+    1,
+    2,
+    3
+  ],
+  "localities": {
+    "Bangalore": [
+      [
+        "K R Puram",
+        16
+      ],
+      [
+        "Electronic City",
+        14
+      ],
+      [
+        "Jp Nagar Phase 7, J P Nagar",
+        11
+      ],
+      [
+        "Murugeshpalya, Airport Road",
+        10
+      ],
+      [
+        "Hebbal",
+        10
+      ],
+      [
+        "Ramamurthy Nagar",
+        10
+      ],
+      [
+        "Electronic City Phase 2, Electronic City",
+        9
+      ],
+      [
+        "whitefield",
+        8
+      ],
+      [
+        "Mahadevapura",
+        8
+      ],
+      [
+        "J P Nagar",
+        8
+      ],
+      [
+        "Vijayanagar",
+        8
+      ],
+      [
+        "Yelahanka",
+        8
+      ],
+      [
+        "Kanakapura Road",
+        7
+      ],
+      [
+        "Rajajinagar",
+        7
+      ],
+      [
+        "Btm Layout",
+        6
+      ],
+      [
+        "Horamavu",
+        6
+      ],
+      [
+        "Mathikere",
+        6
+      ],
+      [
+        "Electronics City Phase 1, Electronic City",
+        6
+      ],
+      [
+        "Maruthi Sevanagar",
+        5
+      ],
+      [
+        "Banaswadi",
+        5
+      ],
+      [
+        "Koramangala",
+        5
+      ],
+      [
+        "Jalahalli, Jalahalli, Outer Ring Road",
+        5
+      ],
+      [
+        "Gottigere",
+        5
+      ],
+      [
+        "Padmanabha Nagar",
+        5
+      ],
+      [
+        "Kaggadasapura, Indira nagar",
+        5
+      ],
+      [
+        "Indira Nagar",
+        5
+      ],
+      [
+        "C V Raman Nagar",
+        5
+      ],
+      [
+        "Frazer Town",
+        4
+      ],
+      [
+        "Hennur Main Road",
+        4
+      ],
+      [
+        "Bommanahalli",
+        4
+      ],
+      [
+        "Hulimavu",
+        4
+      ],
+      [
+        "Thanisandra",
+        4
+      ],
+      [
+        "Kengeri",
+        4
+      ],
+      [
+        "Hongasandra",
+        4
+      ],
+      [
+        "Marathahalli",
+        4
+      ],
+      [
+        "Nri Layout",
+        4
+      ],
+      [
+        "Varthur",
+        4
+      ],
+      [
+        "Rayasandra",
+        4
+      ],
+      [
+        "Vidyaranyapura",
+        4
+      ],
+      [
+        "Jp Nagar Phase 5, J P Nagar, Outer Ring Road",
+        4
+      ],
+      [
+        "Uttarahalli",
+        3
+      ],
+      [
+        "Kammanahalli",
+        3
+      ],
+      [
+        "Byrathi",
+        3
+      ],
+      [
+        "Byatarayanapura",
+        3
+      ],
+      [
+        "Kamala Nagar",
+        3
+      ],
+      [
+        "Chikkabanavara",
+        3
+      ],
+      [
+        "Bilekahalli",
+        3
+      ],
+      [
+        "Hrbr Layout Block 2, Kalyan Nagar, Outer Ring Road",
+        3
+      ],
+      [
+        "Kattigenahalli, Bellary Road",
+        3
+      ],
+      [
+        "Btm Layout Stage 2, BTM Layout",
+        3
+      ],
+      [
+        "Basava Nagar",
+        3
+      ],
+      [
+        "Basavanagudi",
+        3
+      ],
+      [
+        "Sarjapur Road",
+        3
+      ],
+      [
+        "Yelahanka New Town",
+        3
+      ],
+      [
+        "Rajarajeshwari Nagar",
+        3
+      ],
+      [
+        "Dooravani Nagar, Dooravani Nagar",
+        3
+      ],
+      [
+        "Nandini Layout",
+        3
+      ],
+      [
+        "Halasuru",
+        3
+      ],
+      [
+        "Hbr Layout",
+        3
+      ],
+      [
+        "Nagarbhavi",
+        3
+      ],
+      [
+        "Mysore Road",
+        3
+      ],
+      [
+        "Jp Nagar Phase 1, J P Nagar",
+        3
+      ],
+      [
+        "Ms Palya, Vidyaranyapura",
+        3
+      ],
+      [
+        "Begur",
+        3
+      ],
+      [
+        "Hebbal Kempapura",
+        3
+      ],
+      [
+        "Basaveshvara Nagar",
+        3
+      ],
+      [
+        "Basaveshwar Nagar",
+        3
+      ],
+      [
+        "Hennur, Hennur Bagalur Road",
+        3
+      ],
+      [
+        "Garvebhavi Palya",
+        2
+      ],
+      [
+        "Yeshwantpur",
+        2
+      ],
+      [
+        "Hosakerehalli",
+        2
+      ],
+      [
+        "Hommadevanahalli",
+        2
+      ],
+      [
+        "Vijaya Bank Colony -Bilekahalli, Bilekahalli",
+        2
+      ],
+      [
+        "Guttahalli",
+        2
+      ],
+      [
+        "Jakkur",
+        2
+      ],
+      [
+        "Hsr Layout",
+        2
+      ],
+      [
+        "Whitefield",
+        2
+      ],
+      [
+        "Vimanapura, Airport Road",
+        2
+      ],
+      [
+        "Jayanagar",
+        2
+      ],
+      [
+        "Shivaji Nagar",
+        2
+      ],
+      [
+        "Jeevan Bima Nagar, Airport Road",
+        2
+      ],
+      [
+        "Munnekollal",
+        2
+      ],
+      [
+        "Sahakara Nagar",
+        2
+      ],
+      [
+        "Singasandra, Hosur Road",
+        2
+      ],
+      [
+        "Subramanyapura",
+        2
+      ],
+      [
+        "Panduranga Nagar, bannerghatta main Road",
+        2
+      ],
+      [
+        "Ombr Layout, Banaswadi",
+        2
+      ],
+      [
+        "Old Airport Road",
+        2
+      ],
+      [
+        "Nallurhalli, Whitefield, Borewell Road",
+        2
+      ],
+      [
+        "Nagondanahalli",
+        2
+      ],
+      [
+        "Mylasandra",
+        2
+      ],
+      [
+        "Sun City Layout",
+        2
+      ],
+      [
+        "Medahalli",
+        2
+      ],
+      [
+        "Kadugodi",
+        2
+      ],
+      [
+        "Sunkadakatte",
+        2
+      ],
+      [
+        "Malleshwaram",
+        2
+      ],
+      [
+        "Malleshpalya, Kaggadasapura",
+        2
+      ],
+      [
+        "T Dasarahalli",
+        2
+      ],
+      [
+        "Koramangala Block 4",
+        2
+      ],
+      [
+        "Konanakunte",
+        2
+      ],
+      [
+        "Kodigenahalli",
+        2
+      ],
+      [
+        "Seshadripuram",
+        2
+      ],
+      [
+        "Kodigehalli",
+        2
+      ],
+      [
+        "Kodi Halli",
+        2
+      ],
+      [
+        "Mallasandra, Jalahalli West",
+        2
+      ],
+      [
+        "A Narayanapura, Mahadevapura",
+        2
+      ],
+      [
+        "Chikkalasandra",
+        2
+      ],
+      [
+        "Bannerghatta Main Road",
+        2
+      ],
+      [
+        "Amrutahalli",
+        2
+      ],
+      [
+        "Btm Layout Stage 4",
+        2
+      ],
+      [
+        "Chamrajpet",
+        2
+      ],
+      [
+        "Banashankari",
+        2
+      ],
+      [
+        "Banashankari Stage 2, Banashankari",
+        2
+      ],
+      [
+        "Chamundeshwari Layout, Arakere",
+        2
+      ],
+      [
+        "Aecs Layout-Singasandra, Singasandra, Hosur Road",
+        2
+      ],
+      [
+        "Banashankari Stage 3, Banashankari",
+        2
+      ],
+      [
+        "Doddanekundi, Kartik Nagar",
+        2
+      ],
+      [
+        "Chandapura",
+        2
+      ],
+      [
+        "Bhel Township- Malleshwaram, Malleshwaram",
+        2
+      ],
+      [
+        "Doddanagamangala",
+        2
+      ],
+      [
+        "Attibele",
+        2
+      ],
+      [
+        "Dr.Shivaram Karanth Nagar, Jakkuru",
+        2
+      ],
+      [
+        "Battarahalli",
+        2
+      ],
+      [
+        "Abbigere",
+        2
+      ],
+      [
+        "Choodasandra",
+        2
+      ],
+      [
+        "Raghuvanahalli-Bcmc Layout",
+        1
+      ],
+      [
+        "Rmv Extension, Armane Nagar",
+        1
+      ],
+      [
+        "Rmv Extension Stage 2",
+        1
+      ],
+      [
+        "Parappana Agrahara",
+        1
+      ],
+      [
+        "Peenya Industrial Area, Tumkur Road",
+        1
+      ],
+      [
+        "Prakruthi Township, Hennur",
+        1
+      ],
+      [
+        "Prestige Acropolis",
+        1
+      ],
+      [
+        "Punyabhoomi Layout",
+        1
+      ],
+      [
+        "RT Nagar",
+        1
+      ],
+      [
+        "Raghavendra Layout",
+        1
+      ],
+      [
+        "Rbi Layout, J P Nagar",
+        1
+      ],
+      [
+        "B.Narayanapura",
+        1
+      ],
+      [
+        "Ramaiah Layout, Kacharakanahalli",
+        1
+      ],
+      [
+        "Attur Layout, Yelahanka New Town",
+        1
+      ],
+      [
+        "Babusahib Palya",
+        1
+      ],
+      [
+        "Rajamahal Guttahalli",
+        1
+      ],
+      [
+        "BBMP convertion layout",
+        1
+      ],
+      [
+        "Pai Layout-Hulimavu, Hulimavu",
+        1
+      ],
+      [
+        "Rampura",
+        1
+      ],
+      [
+        "Ramaswami Palya kammanhalli",
+        1
+      ],
+      [
+        "Ramachandrapuram Rajajinagar",
+        1
+      ],
+      [
+        "Ramagondanahalli",
+        1
+      ],
+      [
+        "Babusapalya",
+        1
+      ],
+      [
+        "Fci Layout, Deepanjali Nagar",
+        1
+      ],
+      [
+        "Bagalakunte",
+        1
+      ],
+      [
+        "Bagalur",
+        1
+      ],
+      [
+        "Mavalli",
+        1
+      ],
+      [
+        "Mcechs Layout, Jakkuru",
+        1
+      ],
+      [
+        "Bda Layout -Lingarajapuram",
+        1
+      ],
+      [
+        "Meenakshi Layout Hosa Road",
+        1
+      ],
+      [
+        "Meenakshi Layout, Kengeri",
+        1
+      ],
+      [
+        "Mudhaliar layout",
+        1
+      ],
+      [
+        "Basaveshwara Layout",
+        1
+      ],
+      [
+        "Basavanapura",
+        1
+      ],
+      [
+        "Banjara Layout",
+        1
+      ],
+      [
+        "Nagadevana Halli",
+        1
+      ],
+      [
+        "Nagappa Reddy layout-Dooravani Nagar",
+        1
+      ],
+      [
+        "Nagarabhavi",
+        1
+      ],
+      [
+        "Nagarabhavi BDA complex",
+        1
+      ],
+      [
+        "Nagarathpete",
+        1
+      ],
+      [
+        "Bangalore",
+        1
+      ],
+      [
+        "Nagavara",
+        1
+      ],
+      [
+        "Nagvarpalya Main Road",
+        1
+      ],
+      [
+        "Nanja Reddy Colony, Jeevan Bima Nagar",
+        1
+      ],
+      [
+        "Neelasandra",
+        1
+      ],
+      [
+        "Nelamangala",
+        1
+      ],
+      [
+        "New Bel Road",
+        1
+      ],
+      [
+        "Nimbekaipura",
+        1
+      ],
+      [
+        "Nisarga capital appartment",
+        1
+      ],
+      [
+        "Royal Lakefront Phase-3 North, JP Nagar Phase 8",
+        1
+      ],
+      [
+        "Nobo Nagar, Kalena Agrahara",
+        1
+      ],
+      [
+        "Balaji Layout -Hongasandra, Hongasandra",
+        1
+      ],
+      [
+        "Balaji Gardens Layout, Gottigere",
+        1
+      ],
+      [
+        "No 309 6th A cross Banashankari 1st stage 2nd block Bangalore 560050",
+        1
+      ],
+      [
+        "Sanjay Nagar Stage 2",
+        1
+      ],
+      [
+        "Sadashiva Nagar",
+        1
+      ],
+      [
+        "Attiguppe",
+        1
+      ],
+      [
+        "Ambedkar Colony, Yelahanka",
+        1
+      ],
+      [
+        "Vaderahalli",
+        1
+      ],
+      [
+        "Varanasi",
+        1
+      ],
+      [
+        "Airport Road",
+        1
+      ],
+      [
+        "Vasanth Nagar",
+        1
+      ],
+      [
+        "Venkatpura, HSR Layout",
+        1
+      ],
+      [
+        "Ags Layout, Hebbal",
+        1
+      ],
+      [
+        "Agrahara Layout",
+        1
+      ],
+      [
+        "Vijaya Bank Layout",
+        1
+      ],
+      [
+        "Aduru",
+        1
+      ],
+      [
+        "Vinayak Nagar, Kattigenahalli",
+        1
+      ],
+      [
+        "Vinayakanagar, Hebbal",
+        1
+      ],
+      [
+        "Virat Nagar, Bommanahalli",
+        1
+      ],
+      [
+        "Virupakshapura",
+        1
+      ],
+      [
+        "Vishwapriya Nagar, Begur",
+        1
+      ],
+      [
+        "Vishweshwaraiah Layout, Annapurneshwari Nagar",
+        1
+      ],
+      [
+        "Visthar",
+        1
+      ],
+      [
+        "Vv Nagar, Bikasipura",
+        1
+      ],
+      [
+        "Vyalikaval, Malleshwaram",
+        1
+      ],
+      [
+        "Adugodi",
+        1
+      ],
+      [
+        "Wilson Garden",
+        1
+      ],
+      [
+        "Yelachenahalli, Kumaraswamy Layout, Kanakapura Road",
+        1
+      ],
+      [
+        "Aditya Nagar-Vidyaranyapura, Vidyaranyapura",
+        1
+      ],
+      [
+        "Yelahanka Dodda Ballapur Road",
+        1
+      ],
+      [
+        "Yelechenahalli",
+        1
+      ],
+      [
+        "Yemalur",
+        1
+      ],
+      [
+        "Abbiareddy Layout, Kaggadasapura",
+        1
+      ],
+      [
+        "in Bannerghatta Road",
+        1
+      ],
+      [
+        "venkatapuram",
+        1
+      ],
+      [
+        "Ullal Upnagar",
+        1
+      ],
+      [
+        "Udayanagar Extension, Mahadevapura",
+        1
+      ],
+      [
+        "Tumkur Road",
+        1
+      ],
+      [
+        "Sir M V Nagar",
+        1
+      ],
+      [
+        "Sai Colony, Krishnarajapura",
+        1
+      ],
+      [
+        "Marutinagar,",
+        1
+      ],
+      [
+        "Sathnur",
+        1
+      ],
+      [
+        "Seetharampalya, Hoodi",
+        1
+      ],
+      [
+        "Sena Vihar, Kammanahalli",
+        1
+      ],
+      [
+        "Arakere Mico Layout, Arakere",
+        1
+      ],
+      [
+        "Shampura, Kaval Byrasandra",
+        1
+      ],
+      [
+        "Shanti Nagar",
+        1
+      ],
+      [
+        "Arakere",
+        1
+      ],
+      [
+        "Shivananda Nagar, Vijayanagar",
+        1
+      ],
+      [
+        "Singahalli",
+        1
+      ],
+      [
+        "Aradhana Layout, Arakere",
+        1
+      ],
+      [
+        "Sinthan Nagar, Thanisandra",
+        1
+      ],
+      [
+        "Sivanchetti Gardens",
+        1
+      ],
+      [
+        "Tilak Nagar, Jayanagar, bannerghatta main Road",
+        1
+      ],
+      [
+        "Srinagar, Banashankari",
+        1
+      ],
+      [
+        "Srinivasa Nagar-Banashankari, Banashankari",
+        1
+      ],
+      [
+        "Srinivaspura",
+        1
+      ],
+      [
+        "State Bank Of India Colony, Hegganahalli",
+        1
+      ],
+      [
+        "Annapurneshwari Nagar",
+        1
+      ],
+      [
+        "Anjanapura",
+        1
+      ],
+      [
+        "Anantapura",
+        1
+      ],
+      [
+        "Syndicate Bank Colony, Arakere",
+        1
+      ],
+      [
+        "Ananda Puram, Jeevan Bima Nagar",
+        1
+      ],
+      [
+        "Talagatta Pura",
+        1
+      ],
+      [
+        "Talaghattapura",
+        1
+      ],
+      [
+        "Thambuchetty Palya",
+        1
+      ],
+      [
+        "Thammenahalli Apartmentge",
+        1
+      ],
+      [
+        "Bedarahalli, Magadi Road",
+        1
+      ],
+      [
+        "Marathahalli-Sarjapur Outer Ring Road",
+        1
+      ],
+      [
+        "Begur Road",
+        1
+      ],
+      [
+        "Maruthi Nagar-Yelahanka, Yelahanka",
+        1
+      ],
+      [
+        "Hoysala Nagar",
+        1
+      ],
+      [
+        "Dinnur, Hebbal",
+        1
+      ],
+      [
+        "Dhobi Ghat- Rajajinagar",
+        1
+      ],
+      [
+        "Hsr Layout Sector 2, HSR Layout",
+        1
+      ],
+      [
+        "Hsr Layout Sector 3, HSR Layout",
+        1
+      ],
+      [
+        "Hsr Layout Sector 6, HSR Layout",
+        1
+      ],
+      [
+        "Devinagar, Outer Ring Road",
+        1
+      ],
+      [
+        "Hutchins Road",
+        1
+      ],
+      [
+        "ITI Layout",
+        1
+      ],
+      [
+        "Ilyas Nagar, Kumaraswamy Layout",
+        1
+      ],
+      [
+        "Devanahalli",
+        1
+      ],
+      [
+        "Isro Layout, Kumaraswamy Layout",
+        1
+      ],
+      [
+        "Itpl, Whitefield",
+        1
+      ],
+      [
+        "Cunningham Road",
+        1
+      ],
+      [
+        "JAR Shikara",
+        1
+      ],
+      [
+        "Jagadish Nagar, Kaggadasapura",
+        1
+      ],
+      [
+        "Cox Town",
+        1
+      ],
+      [
+        "Jakkur Plantation, Jakkuru, Bellary Road",
+        1
+      ],
+      [
+        "Jalahalli East",
+        1
+      ],
+      [
+        "Coffee Board Layout, Nagavara",
+        1
+      ],
+      [
+        "Jaya Nagar Block 1, Jayanagar",
+        1
+      ],
+      [
+        "Jaya Nagar Block 3",
+        1
+      ],
+      [
+        "Jaya Nagar Block 5, Jayanagar",
+        1
+      ],
+      [
+        "Jaya Nagar Block 7, Jayanagar",
+        1
+      ],
+      [
+        "Jaya Nagar Block 8, Jayanagar",
+        1
+      ],
+      [
+        "Chuchangatta Colony, J P Nagar",
+        1
+      ],
+      [
+        "Jayanti Nagar, Hormavu",
+        1
+      ],
+      [
+        "Chowdeshwari Layout, Yelahanka",
+        1
+      ],
+      [
+        "Jeevanhalli, Cox Town",
+        1
+      ],
+      [
+        "Hosur Road",
+        1
+      ],
+      [
+        "Dodda Banaswadi, Banaswadi",
+        1
+      ],
+      [
+        "Hosa Road, off Hosur Road",
+        1
+      ],
+      [
+        "Domlur, Domlur",
+        1
+      ],
+      [
+        "GH Society",
+        1
+      ],
+      [
+        "Ganga Nagar",
+        1
+      ],
+      [
+        "Garden City University",
+        1
+      ],
+      [
+        "Garebhavipalya, Hongasandra, Hosur Road",
+        1
+      ],
+      [
+        "Ejipura",
+        1
+      ],
+      [
+        "Gh society",
+        1
+      ],
+      [
+        "Girinagar",
+        1
+      ],
+      [
+        "Dwarka Nagar, Kattigenahalli",
+        1
+      ],
+      [
+        "Gubbalala, Subramanyapura",
+        1
+      ],
+      [
+        "Gunjur",
+        1
+      ],
+      [
+        "HMT Layout Nagasandra",
+        1
+      ],
+      [
+        "HRBR Layout Block 1",
+        1
+      ],
+      [
+        "Hal Layout, Hosur Road",
+        1
+      ],
+      [
+        "Haralur Road",
+        1
+      ],
+      [
+        "Hosa Road Junction",
+        1
+      ],
+      [
+        "Doddathoguru, Electronic City",
+        1
+      ],
+      [
+        "Hbr Layout Block 4, HBR Layout",
+        1
+      ],
+      [
+        "Hegde Nagar, R.K.Hegde Nagar",
+        1
+      ],
+      [
+        "Doddakammanahalli",
+        1
+      ],
+      [
+        "Doddabidarakallu",
+        1
+      ],
+      [
+        "Hesaraghatta Main Road",
+        1
+      ],
+      [
+        "Doddabanahalli",
+        1
+      ],
+      [
+        "Doddaballapur Road",
+        1
+      ],
+      [
+        "Hoodi Circle, Hoodi",
+        1
+      ],
+      [
+        "Dodda Nekkundi Extension, Kartik Nagar, Outer Ring Road",
+        1
+      ],
+      [
+        "Horamavu Agara, Hormavu",
+        1
+      ],
+      [
+        "Horamavu kelkkeri road",
+        1
+      ],
+      [
+        "Hormavu Ring Road",
+        1
+      ],
+      [
+        "Jnana Ganga Nagar",
+        1
+      ],
+      [
+        "Jogupalya",
+        1
+      ],
+      [
+        "Jp Nagar Phase 2, J P Nagar",
+        1
+      ],
+      [
+        "Magadi Road",
+        1
+      ],
+      [
+        "Kothanur",
+        1
+      ],
+      [
+        "Kr Garden-Murugeshpalya, Murugeshpalya, Airport Road",
+        1
+      ],
+      [
+        "Krishna Reddy Layout -Domlur",
+        1
+      ],
+      [
+        "Kudlu",
+        1
+      ],
+      [
+        "Kudlu Gate",
+        1
+      ],
+      [
+        "Kumaraswamy Layout, Kumaraswamy Layout",
+        1
+      ],
+      [
+        "Kyalasanahalli",
+        1
+      ],
+      [
+        "Laggere",
+        1
+      ],
+      [
+        "Lakshmipura",
+        1
+      ],
+      [
+        "Lavelle Road",
+        1
+      ],
+      [
+        "Laxminarayana Layout, Munnekollal",
+        1
+      ],
+      [
+        "M C Layout, Vijayanagar, Magadi Road",
+        1
+      ],
+      [
+        "Madanayakahalli",
+        1
+      ],
+      [
+        "Mahatma Gandhi Road",
+        1
+      ],
+      [
+        "Koramangala Block 3",
+        1
+      ],
+      [
+        "Mailasandar",
+        1
+      ],
+      [
+        "Bhel Layout, Rajarajeshwari Nagar",
+        1
+      ],
+      [
+        "Mallathahalli, Outer Ring Road",
+        1
+      ],
+      [
+        "Bhattarahalli",
+        1
+      ],
+      [
+        "Bettadasanapura",
+        1
+      ],
+      [
+        "Manayata Tech Park",
+        1
+      ],
+      [
+        "Mangammanapalya, Hosur Road",
+        1
+      ],
+      [
+        "Manyata Residency, Thanisandra",
+        1
+      ],
+      [
+        "Benson Town",
+        1
+      ],
+      [
+        "Ews Colony, BTM Layout",
+        1
+      ],
+      [
+        "Margondanahalli",
+        1
+      ],
+      [
+        "Maruthi Extesnion, Rajajinagar",
+        1
+      ],
+      [
+        "Maruthi Nagar-Kaggadasapura, Kaggadasapura",
+        1
+      ],
+      [
+        "Bikasipura, kanakapura Road",
+        1
+      ],
+      [
+        "Koramangala Block 1",
+        1
+      ],
+      [
+        "Chikkasandra-Jalahalli West, Jalahalli West",
+        1
+      ],
+      [
+        "Chamundi Nagar, Rajajinagar",
+        1
+      ],
+      [
+        "Jp Nagar Phase 6, J P Nagar, Outer Ring Road",
+        1
+      ],
+      [
+        "Chikkana Layout, Kammanahalli",
+        1
+      ],
+      [
+        "Jyothi Nagar, Dooravani Nagar",
+        1
+      ],
+      [
+        "Kachohalli",
+        1
+      ],
+      [
+        "Chikbasavnapura, Krishnarajapura",
+        1
+      ],
+      [
+        "Kadugodi Pattalamma Layout",
+        1
+      ],
+      [
+        "Kadugondanahalli, Kadugondanahalli",
+        1
+      ],
+      [
+        "Chelekare, Kalyan Nagar, Outer Ring Road",
+        1
+      ],
+      [
+        "Aarna Enclave",
+        1
+      ],
+      [
+        "Kalkere",
+        1
+      ],
+      [
+        "Kalyan Nagar",
+        1
+      ],
+      [
+        "Channasandra",
+        1
+      ],
+      [
+        "Kammagondahalli, Jalahalli",
+        1
+      ],
+      [
+        "Karihobanahalli",
+        1
+      ],
+      [
+        "Koramangala 8Th Block",
+        1
+      ],
+      [
+        "Kasturi Nagar",
+        1
+      ],
+      [
+        "Kempapura Agrahara",
+        1
+      ],
+      [
+        "Kengeri Hobli",
+        1
+      ],
+      [
+        "Kengeri Main Road",
+        1
+      ],
+      [
+        "Kengeri Satellite Town",
+        1
+      ],
+      [
+        "Kengeri Upanagara",
+        1
+      ],
+      [
+        "Kereguddadahalli, chikkabanavara Bangalore",
+        1
+      ],
+      [
+        "Budigere Cross",
+        1
+      ],
+      [
+        "Kodichikkanahalli Main Road",
+        1
+      ],
+      [
+        "Bommasandra",
+        1
+      ],
+      [
+        "Kogilu",
+        1
+      ],
+      [
+        "Bohra Layout, Gottigere, bannerghatta main Road",
+        1
+      ],
+      [
+        "Bilal Nagar-Sagayapura",
+        1
+      ],
+      [
+        "Kalasipalyam, Kalasipalyam",
+        1
+      ]
+    ],
+    "Chennai": [
+      [
+        "Velachery",
+        18
+      ],
+      [
+        "Madipakkam",
+        18
+      ],
+      [
+        "Sholinganallur",
+        15
+      ],
+      [
+        "Iyyappanthangal",
+        14
+      ],
+      [
+        "Medavakkam",
+        14
+      ],
+      [
+        "Chromepet, GST Road",
+        12
+      ],
+      [
+        "Perungalathur, Chennai Bypass Road",
+        12
+      ],
+      [
+        "Vadapalani",
+        12
+      ],
+      [
+        "Old Mahabalipuram Road",
+        12
+      ],
+      [
+        "Valasaravakkam, Arcot Road",
+        11
+      ],
+      [
+        "Choolaimedu",
+        10
+      ],
+      [
+        "Kolathur",
+        10
+      ],
+      [
+        "Ambattur",
+        10
+      ],
+      [
+        "Porur",
+        10
+      ],
+      [
+        "Urapakkam, Vandalur R.F, GST Road",
+        8
+      ],
+      [
+        "Anna Nagar",
+        8
+      ],
+      [
+        "Thoraipakkam",
+        8
+      ],
+      [
+        "Thiruvanmiyur",
+        8
+      ],
+      [
+        "Pallikaranai",
+        8
+      ],
+      [
+        "Mangadu",
+        8
+      ],
+      [
+        "Perambur",
+        7
+      ],
+      [
+        "Kodambakkam",
+        7
+      ],
+      [
+        "Padur, Old Mahabalipuram Road",
+        6
+      ],
+      [
+        "Perumbakkam",
+        6
+      ],
+      [
+        "Selaiyur",
+        6
+      ],
+      [
+        "Adambakkam",
+        6
+      ],
+      [
+        "Adyar, Sardar Patel Road",
+        6
+      ],
+      [
+        "Kelambakkam, Old Mahabalipuram Road",
+        6
+      ],
+      [
+        "Ashok Nagar",
+        6
+      ],
+      [
+        "Tambaram, GST Road",
+        6
+      ],
+      [
+        "T Nagar",
+        6
+      ],
+      [
+        "Korattur, Jawaharlal Nehru Road",
+        6
+      ],
+      [
+        "Mylapore",
+        6
+      ],
+      [
+        "Tiruvottiyur",
+        5
+      ],
+      [
+        "Mahindra World City",
+        5
+      ],
+      [
+        "Kovilambakkam",
+        5
+      ],
+      [
+        "Arumbakkam",
+        5
+      ],
+      [
+        "Alwarpet",
+        5
+      ],
+      [
+        "Anakaputhur",
+        5
+      ],
+      [
+        "Old Washermanpet",
+        5
+      ],
+      [
+        "Purasawalkam, PH Road",
+        5
+      ],
+      [
+        "Navalur",
+        5
+      ],
+      [
+        "Mambalam West",
+        5
+      ],
+      [
+        "Ayappakkam",
+        5
+      ],
+      [
+        "Mandaiveli",
+        4
+      ],
+      [
+        "Mugalivakkam",
+        4
+      ],
+      [
+        "Nanmangalam",
+        4
+      ],
+      [
+        "Madambakkam",
+        4
+      ],
+      [
+        "KK Nagar",
+        4
+      ],
+      [
+        "Sembakkam",
+        4
+      ],
+      [
+        "Tambaram East",
+        4
+      ],
+      [
+        "Nungambakkam",
+        4
+      ],
+      [
+        "Thalambur",
+        4
+      ],
+      [
+        "Pammal",
+        4
+      ],
+      [
+        "Tambaram West, Tambaram, Chennai Bypass Road",
+        4
+      ],
+      [
+        "Guduvancheri",
+        4
+      ],
+      [
+        "Kattupakkam, PH Road",
+        4
+      ],
+      [
+        "Anna Nagar West Extension",
+        4
+      ],
+      [
+        "Virugambakkam",
+        4
+      ],
+      [
+        "Royapettah",
+        3
+      ],
+      [
+        "Nandambakkam",
+        3
+      ],
+      [
+        "Chetpet, PH Road",
+        3
+      ],
+      [
+        "Keelkattalai",
+        3
+      ],
+      [
+        "Ayanavaram",
+        3
+      ],
+      [
+        "Mannivakkam",
+        3
+      ],
+      [
+        "Mogappair East",
+        3
+      ],
+      [
+        "Nanganallur",
+        3
+      ],
+      [
+        "Chitlapakkam",
+        3
+      ],
+      [
+        "R.A Puram, Mandaiveli",
+        3
+      ],
+      [
+        "Oragadam",
+        3
+      ],
+      [
+        "Aminjikarai, PH Road",
+        3
+      ],
+      [
+        "Poonamallee",
+        3
+      ],
+      [
+        "Perungudi",
+        3
+      ],
+      [
+        "Siruseri",
+        3
+      ],
+      [
+        "Ponniammanmedu",
+        3
+      ],
+      [
+        "Jalladian Pet",
+        3
+      ],
+      [
+        "Egmore, PH Road",
+        3
+      ],
+      [
+        "Villivakkam, Jawaharlal Nehru Road",
+        2
+      ],
+      [
+        "Koyambedu",
+        2
+      ],
+      [
+        "Raja Annamalai Puram",
+        2
+      ],
+      [
+        "Kundrathur, Pallavaram Kundrathur Main Road",
+        2
+      ],
+      [
+        "Padapai",
+        2
+      ],
+      [
+        "Saidapet",
+        2
+      ],
+      [
+        "Thirumazhisai",
+        2
+      ],
+      [
+        "Pudupakkam",
+        2
+      ],
+      [
+        "MRC Nagar",
+        2
+      ],
+      [
+        "Maduravoyal",
+        2
+      ],
+      [
+        "Irumbuliyur",
+        2
+      ],
+      [
+        "Gopalapuram",
+        2
+      ],
+      [
+        "Santhosapuram, Medavakkam",
+        2
+      ],
+      [
+        "Besant Nagar",
+        2
+      ],
+      [
+        "Jawahar Nagar",
+        2
+      ],
+      [
+        "Teynampet",
+        2
+      ],
+      [
+        "Injambakkam",
+        2
+      ],
+      [
+        "Nemilichery, Chromepet",
+        2
+      ],
+      [
+        "Mathur",
+        2
+      ],
+      [
+        "Neelankarai, E Coast Road",
+        2
+      ],
+      [
+        "Thirumullaivoyal",
+        2
+      ],
+      [
+        "Mogappair West",
+        2
+      ],
+      [
+        "Moulivakkam, Moulivakkam",
+        2
+      ],
+      [
+        "Annanagar East",
+        2
+      ],
+      [
+        "Kovur",
+        2
+      ],
+      [
+        "Nandanam Extension",
+        2
+      ],
+      [
+        "Palavakkam, E Coast Road",
+        2
+      ],
+      [
+        "Thiruverkkadu",
+        2
+      ],
+      [
+        "Tharamani",
+        2
+      ],
+      [
+        "Kalavakkam",
+        2
+      ],
+      [
+        "Kamakoti Nagar, Pallikaranai",
+        2
+      ],
+      [
+        "Poonamalle",
+        2
+      ],
+      [
+        "Kannan Colony, Pazhavanthangal",
+        2
+      ],
+      [
+        "Abiramapuram",
+        2
+      ],
+      [
+        "Karapakkam",
+        2
+      ],
+      [
+        "Sithalapakkam",
+        2
+      ],
+      [
+        "Singaperumal Koil, Tiruchi Chennai Highway",
+        2
+      ],
+      [
+        "Kayarambedu",
+        2
+      ],
+      [
+        "Chennai",
+        2
+      ],
+      [
+        "Pallavaram",
+        2
+      ],
+      [
+        "Kodungaiyur East",
+        2
+      ],
+      [
+        "Semmancheri",
+        2
+      ],
+      [
+        "Kilpauk",
+        2
+      ],
+      [
+        "Thanikachalam Nagar, Ponniammanmedu",
+        1
+      ],
+      [
+        "Porur Gardens",
+        1
+      ],
+      [
+        "YES YES SARAS",
+        1
+      ],
+      [
+        "Radha Nagar, Chrompet",
+        1
+      ],
+      [
+        "Potheri, Kattankulathur",
+        1
+      ],
+      [
+        "venkatesa perumal nagar",
+        1
+      ],
+      [
+        "sspdl Mayfair",
+        1
+      ],
+      [
+        "RE Nagar, Porur",
+        1
+      ],
+      [
+        "independent Apartment dhandeeshwatam nagar velachery",
+        1
+      ],
+      [
+        "Prestige Bellavista",
+        1
+      ],
+      [
+        "in Saligramam",
+        1
+      ],
+      [
+        "Poongavanapuram",
+        1
+      ],
+      [
+        "Puzhuthivakkam, Madipakkam",
+        1
+      ],
+      [
+        "Pushpa Colony, Saligramam",
+        1
+      ],
+      [
+        "Zamin Pallavaram, Pallavaram",
+        1
+      ],
+      [
+        "Thandalam",
+        1
+      ],
+      [
+        "kumari neo town",
+        1
+      ],
+      [
+        "mahindra city",
+        1
+      ],
+      [
+        "Purasaiwakkam",
+        1
+      ],
+      [
+        "besant nagar Chennai",
+        1
+      ],
+      [
+        "Pudur",
+        1
+      ],
+      [
+        "Tiruvallur",
+        1
+      ],
+      [
+        "Vimalapuram, Manali",
+        1
+      ],
+      [
+        "Teachers's Colony-Lakshmipuram",
+        1
+      ],
+      [
+        "Rajakilpakkam, Selaiyur",
+        1
+      ],
+      [
+        "Saraswathi Nagar-Neelankarai, Neelankarai, E Coast Road",
+        1
+      ],
+      [
+        "Veerapuram",
+        1
+      ],
+      [
+        "Varadharajapuram",
+        1
+      ],
+      [
+        "Vandalur",
+        1
+      ],
+      [
+        "Ullagaram, Pallavaram-Thuraipakkam Road",
+        1
+      ],
+      [
+        "Triplicane",
+        1
+      ],
+      [
+        "Semmenchery",
+        1
+      ],
+      [
+        "Tambaram Sanatorium",
+        1
+      ],
+      [
+        "Ponneri",
+        1
+      ],
+      [
+        "Sivalingapuram",
+        1
+      ],
+      [
+        "Sriperumbudur",
+        1
+      ],
+      [
+        "Subramaniya Swamy Nagar, Valasaravakkam, Arcot Road",
+        1
+      ],
+      [
+        "Suriyammapet, Saidapet",
+        1
+      ],
+      [
+        "Tondiarpet, Ennore High Road",
+        1
+      ],
+      [
+        "TTK Nagar, Tambaram",
+        1
+      ],
+      [
+        "Sakthi Nagar, Adambakkam",
+        1
+      ],
+      [
+        "Saidapet West, Saidapet",
+        1
+      ],
+      [
+        "Sadhanadhapuram",
+        1
+      ],
+      [
+        "Ranganathapuram-Medavakkam",
+        1
+      ],
+      [
+        "Rajakipakkam, Sembakkam",
+        1
+      ],
+      [
+        "Washermanpet",
+        1
+      ],
+      [
+        "Thiruneermalai",
+        1
+      ],
+      [
+        "Ram Nagar South Extension, Madipakkam",
+        1
+      ],
+      [
+        "Ram Nagar-Nanganallur",
+        1
+      ],
+      [
+        "Ramapuram",
+        1
+      ],
+      [
+        "Rani Anna Nagar",
+        1
+      ],
+      [
+        "Sadasiva Nagar Madipakkam",
+        1
+      ],
+      [
+        "Vetri Nagar, Perambur",
+        1
+      ],
+      [
+        "Redhills",
+        1
+      ],
+      [
+        "Venkateshwara Nagar, Ramapuram, PH Road",
+        1
+      ],
+      [
+        "Thillai Ganga Nagar, Nanganallur",
+        1
+      ],
+      [
+        "S.Kolathur",
+        1
+      ],
+      [
+        "Vengaivasal, Medavakkam",
+        1
+      ],
+      [
+        "Thirumangalam-Anna Nagar West",
+        1
+      ],
+      [
+        "2nd Main Road",
+        1
+      ],
+      [
+        "Ponmar",
+        1
+      ],
+      [
+        "KK Nagar West, KK Nagar",
+        1
+      ],
+      [
+        "Chembarambakkam",
+        1
+      ],
+      [
+        "Chinna Porur",
+        1
+      ],
+      [
+        "Chintadripet",
+        1
+      ],
+      [
+        "Choolaimedu High Road",
+        1
+      ],
+      [
+        "Cmbt",
+        1
+      ],
+      [
+        "Deepa Appartment Turnbulls",
+        1
+      ],
+      [
+        "Devi Karumariamman Nagar, Velachery",
+        1
+      ],
+      [
+        "Dr Ranga Road",
+        1
+      ],
+      [
+        "East Coast Road",
+        1
+      ],
+      [
+        "Elango Nagar-Virugambakkam",
+        1
+      ],
+      [
+        "Ennore",
+        1
+      ],
+      [
+        "Erukkancheri, Kodungaiyur West",
+        1
+      ],
+      [
+        "G S T Road",
+        1
+      ],
+      [
+        "Ganapathipuram, Chromepet",
+        1
+      ],
+      [
+        "Gandhi Nagar Adyar",
+        1
+      ],
+      [
+        "George Town, PH Road",
+        1
+      ],
+      [
+        "Gowrivakkam, Sembakkam",
+        1
+      ],
+      [
+        "Harrington Road",
+        1
+      ],
+      [
+        "Indira Colony",
+        1
+      ],
+      [
+        "Indra Nagar",
+        1
+      ],
+      [
+        "Jafferkhanpet",
+        1
+      ],
+      [
+        "Central Bank Colony, Chromepet",
+        1
+      ],
+      [
+        "CIT Nagar",
+        1
+      ],
+      [
+        "CBI Colony",
+        1
+      ],
+      [
+        "Arasankalani",
+        1
+      ],
+      [
+        "58 block",
+        1
+      ],
+      [
+        "AGS Colony-Velachery",
+        1
+      ],
+      [
+        "Alapakkam, Porur",
+        1
+      ],
+      [
+        "Alwarthirunagar",
+        1
+      ],
+      [
+        "Ambattur Industrial Estate, Chennai Bypass Road",
+        1
+      ],
+      [
+        "Anna Nagar East",
+        1
+      ],
+      [
+        "Anna Nagar West",
+        1
+      ],
+      [
+        "Anna Nagar-Pammal",
+        1
+      ],
+      [
+        "Annanagar west",
+        1
+      ],
+      [
+        "Arcot Road Virugambakkam",
+        1
+      ],
+      [
+        "Bunder Garden, Perambur",
+        1
+      ],
+      [
+        "Arunachalam Nagar, Madipakkam",
+        1
+      ],
+      [
+        "Ask Nagar, Adambakkam",
+        1
+      ],
+      [
+        "Avadi",
+        1
+      ],
+      [
+        "Ayyappa Nagar, Pallavaram",
+        1
+      ],
+      [
+        "BHEL Nagar-Medavakkam",
+        1
+      ],
+      [
+        "Baby Nagar Extention, Velachery",
+        1
+      ],
+      [
+        "Banu Nagar",
+        1
+      ],
+      [
+        "Bharath Nagar, Porur",
+        1
+      ],
+      [
+        "Bharathidasan Colony, KK Nagar",
+        1
+      ],
+      [
+        "Jaya Nagar, Porur, Chennai Bypass Road",
+        1
+      ],
+      [
+        "Kamaraj Nagar-Thiruvanmiyur, E Coast Road",
+        1
+      ],
+      [
+        "Polacheri",
+        1
+      ],
+      [
+        "Kamarajar Salai",
+        1
+      ],
+      [
+        "Mappedu, Selaiyur",
+        1
+      ],
+      [
+        "Mattan Kuppam, Triplicane",
+        1
+      ],
+      [
+        "355 konnur highroad Ayanavaram",
+        1
+      ],
+      [
+        "N G O nagar extn ponneri",
+        1
+      ],
+      [
+        "Nandivaram-Guduvancheri",
+        1
+      ],
+      [
+        "Narayanapuram, Kovilambakkam",
+        1
+      ],
+      [
+        "Near Jeyachandran textiles",
+        1
+      ],
+      [
+        "Nesapakkam",
+        1
+      ],
+      [
+        "Nest bliss sholinganallur",
+        1
+      ],
+      [
+        "New Kumaran Nagar",
+        1
+      ],
+      [
+        "New Perungalathur",
+        1
+      ],
+      [
+        "Okkiyam Thuraipakkam, E Coast Road",
+        1
+      ],
+      [
+        "Old Pallavaram, Alandur",
+        1
+      ],
+      [
+        "Oliyas Green court",
+        1
+      ],
+      [
+        "Pachaiyamman Nagar",
+        1
+      ],
+      [
+        "Paddy field street,Perambur",
+        1
+      ],
+      [
+        "Pallavan Nagar-Thiruverkadu",
+        1
+      ],
+      [
+        "Panaiyur, E Coast Road",
+        1
+      ],
+      [
+        "Pattabiram",
+        1
+      ],
+      [
+        "Pazhavanthangal, Jawaharlal Nehru Road",
+        1
+      ],
+      [
+        "Periyamet",
+        1
+      ],
+      [
+        "Manikandan Nagar",
+        1
+      ],
+      [
+        "Manapakkam",
+        1
+      ],
+      [
+        "Manali, Manali High Road",
+        1
+      ],
+      [
+        "Kodungaiyur West",
+        1
+      ],
+      [
+        "Kanathur Reddikuppam",
+        1
+      ],
+      [
+        "Karambakkam, Porur",
+        1
+      ],
+      [
+        "Karanai",
+        1
+      ],
+      [
+        "Kasi Estate",
+        1
+      ],
+      [
+        "Kasturibai Nagar",
+        1
+      ],
+      [
+        "Kazhipattur",
+        1
+      ],
+      [
+        "Keelkatalai",
+        1
+      ],
+      [
+        "Kellys",
+        1
+      ],
+      [
+        "Khurunjis zinnia Apartment Homes at Thambaram west",
+        1
+      ],
+      [
+        "Kolapakkam - Vandalur-Kelambakkam Road",
+        1
+      ],
+      [
+        "Mambakkam",
+        1
+      ],
+      [
+        "Krishna Nagar-Chromepet, Chromepet",
+        1
+      ],
+      [
+        "Kubera Nagar, Madipakkam",
+        1
+      ],
+      [
+        "Kuthanur",
+        1
+      ],
+      [
+        "Lake Area, Nungambakkam",
+        1
+      ],
+      [
+        "Lanchor Abode valley",
+        1
+      ],
+      [
+        "Loganathan Colony, Mylapore",
+        1
+      ],
+      [
+        "Luz, Mylapore",
+        1
+      ],
+      [
+        "Madanankppam",
+        1
+      ],
+      [
+        "Madhavaram, Guntur Chennai Highway",
+        1
+      ],
+      [
+        "villvam towers tnhb colony",
+        1
+      ]
+    ],
+    "Delhi": [
+      [
+        "Laxmi Nagar",
+        16
+      ],
+      [
+        "Saket",
+        10
+      ],
+      [
+        "kst chattarpur Apartments",
+        9
+      ],
+      [
+        "Chhattarpur Enclave",
+        9
+      ],
+      [
+        "Chhattarpur",
+        9
+      ],
+      [
+        "Pitampura",
+        8
+      ],
+      [
+        "Vasant Kunj",
+        7
+      ],
+      [
+        "Lajpat Nagar",
+        7
+      ],
+      [
+        "Paschim Vihar",
+        6
+      ],
+      [
+        "Najafgarh",
+        6
+      ],
+      [
+        "Arjun Nagar, Safdarjung Enclave",
+        6
+      ],
+      [
+        "Mehrauli",
+        6
+      ],
+      [
+        "Kalkaji",
+        6
+      ],
+      [
+        "Janakpuri",
+        6
+      ],
+      [
+        "Lajpat Nagar 4",
+        5
+      ],
+      [
+        "Lajpat Nagar 1",
+        5
+      ],
+      [
+        "Rohini Sector 24",
+        5
+      ],
+      [
+        "Safdarjung Enclave",
+        5
+      ],
+      [
+        "Pandav Nagar",
+        4
+      ],
+      [
+        "Neb Sarai",
+        4
+      ],
+      [
+        "Mayur Vihar 1",
+        4
+      ],
+      [
+        "Malviya Nagar",
+        4
+      ],
+      [
+        "Greater Kailash 2",
+        4
+      ],
+      [
+        "Shalimar bagh",
+        4
+      ],
+      [
+        "Uttam Nagar",
+        4
+      ],
+      [
+        "Indraprastha Extension, Patparganj",
+        3
+      ],
+      [
+        "Karol Bagh",
+        3
+      ],
+      [
+        "Gautam Nagar",
+        3
+      ],
+      [
+        "AGCR Enclave, Anand Vihar",
+        3
+      ],
+      [
+        "Model Town",
+        3
+      ],
+      [
+        "Mahipalpur",
+        3
+      ],
+      [
+        "Mayur Vihar Phase 1 Extension",
+        3
+      ],
+      [
+        "Defence Colony",
+        3
+      ],
+      [
+        "Mohan Garden, Razapur Khurd",
+        3
+      ],
+      [
+        "Rajouri Garden",
+        3
+      ],
+      [
+        "Sarvodaya Enclave",
+        3
+      ],
+      [
+        "Surajmal Vihar",
+        3
+      ],
+      [
+        "East Of Kailash",
+        3
+      ],
+      [
+        "Mahavir Enclave Part 1",
+        3
+      ],
+      [
+        "Aya Nagar",
+        3
+      ],
+      [
+        "Chittaranjan Park",
+        3
+      ],
+      [
+        "DS 19",
+        3
+      ],
+      [
+        "Jagriti Enclave, Anand Vihar",
+        2
+      ],
+      [
+        "Shakarpur",
+        2
+      ],
+      [
+        "Jangpura Extension, Jangpura",
+        2
+      ],
+      [
+        "Sangam Vihar",
+        2
+      ],
+      [
+        "Sagar Pur",
+        2
+      ],
+      [
+        "Kamla Nagar",
+        2
+      ],
+      [
+        "Rohini Sector 11",
+        2
+      ],
+      [
+        "Karkardooma, Anand Vihar",
+        2
+      ],
+      [
+        "Rohini Sector 38",
+        2
+      ],
+      [
+        "Khanpur, Madangir",
+        2
+      ],
+      [
+        "Khirki extension, Malviya Nagar",
+        2
+      ],
+      [
+        "Rohini Sector 3",
+        2
+      ],
+      [
+        "Rohini Sector 18",
+        2
+      ],
+      [
+        "Hari Nagar Ashram",
+        2
+      ],
+      [
+        "Lajpat Nagar 3",
+        2
+      ],
+      [
+        "Ram Nagar",
+        2
+      ],
+      [
+        "Guru Angad Nagar West, Laxmi Nagar",
+        2
+      ],
+      [
+        "Pushpanjali, Anand Vihar",
+        2
+      ],
+      [
+        "Mausam Vihar",
+        2
+      ],
+      [
+        "Chattarpur Extension",
+        2
+      ],
+      [
+        "Preet Vihar",
+        2
+      ],
+      [
+        "Burari",
+        2
+      ],
+      [
+        "Patparganj",
+        2
+      ],
+      [
+        "Mukherjee Nagar",
+        2
+      ],
+      [
+        "Patel Nagar West",
+        2
+      ],
+      [
+        "Paschim Vihar Block A6",
+        2
+      ],
+      [
+        "Paschim Vihar Block A3",
+        2
+      ],
+      [
+        "Paryavaran Complex, Sainik Farm",
+        2
+      ],
+      [
+        "Bhajanpura",
+        2
+      ],
+      [
+        "Panchsheel Vihar, Sheikh Sarai",
+        2
+      ],
+      [
+        "New Delhi",
+        2
+      ],
+      [
+        "Hari Nagar",
+        2
+      ],
+      [
+        "Dakshini Pitampura",
+        2
+      ],
+      [
+        "Freedom Fighters Enclave",
+        2
+      ],
+      [
+        "DDA Flats Sarita Vihar, Sarita Vihar, Mathura Road",
+        2
+      ],
+      [
+        "Amar Colony, Lajpat Nagar",
+        2
+      ],
+      [
+        "Dwarka",
+        2
+      ],
+      [
+        "Dwarka Mor",
+        2
+      ],
+      [
+        "Dwarka Sector 23",
+        2
+      ],
+      [
+        "Vikram Vihar, Lajpat Nagar",
+        2
+      ],
+      [
+        "Dwarka Sector 8",
+        2
+      ],
+      [
+        "Vikaspuri",
+        2
+      ],
+      [
+        "Nirman Vihar, Preet Vihar",
+        2
+      ],
+      [
+        "South Extension 1",
+        2
+      ],
+      [
+        "Subhash Nagar",
+        2
+      ],
+      [
+        "Shahdara",
+        1
+      ],
+      [
+        "Qutub Vihar, Dwarka",
+        1
+      ],
+      [
+        "Shakarpur Khas, Shakarpur",
+        1
+      ],
+      [
+        "Prem Nagar",
+        1
+      ],
+      [
+        "Prem Nagar, Patel Nagar",
+        1
+      ],
+      [
+        "Pul Prahlad Pur",
+        1
+      ],
+      [
+        "Vasundhara Enclave",
+        1
+      ],
+      [
+        "RWA triveni residents",
+        1
+      ],
+      [
+        "Baljit Nagar, Patel Nagar",
+        1
+      ],
+      [
+        "Radhey Shyam Park",
+        1
+      ],
+      [
+        "Raghubir Nagar, Tagore Garden Extension",
+        1
+      ],
+      [
+        "Raj Nagar 2",
+        1
+      ],
+      [
+        "Badarpur",
+        1
+      ],
+      [
+        "Rajpur Khurd Extension, Rajpur",
+        1
+      ],
+      [
+        "Ashok Vihar Phase 2",
+        1
+      ],
+      [
+        "Peera Garhi",
+        1
+      ],
+      [
+        "Shadipur",
+        1
+      ],
+      [
+        "Vinod Nagar East",
+        1
+      ],
+      [
+        "Sheikh Sarai",
+        1
+      ],
+      [
+        "Vinod Nagar West",
+        1
+      ],
+      [
+        "Vivek Vihar",
+        1
+      ],
+      [
+        "Sheikh Sarai Phase 1",
+        1
+      ],
+      [
+        "Paschim Vihar Block B1",
+        1
+      ],
+      [
+        "Shiva Enclave, Paschim Vihar",
+        1
+      ],
+      [
+        "Vivek Vihar Phase 1",
+        1
+      ],
+      [
+        "Ber Sarai",
+        1
+      ],
+      [
+        "Vivek Vihar Phase 2",
+        1
+      ],
+      [
+        "dwarka sector 8 Raj Nagar extension part 2",
+        1
+      ],
+      [
+        "gg1 vikas puri",
+        1
+      ],
+      [
+        "Palam Colony, Palam",
+        1
+      ],
+      [
+        "Vasant Kunj Sector C",
+        1
+      ],
+      [
+        "Rangpuri",
+        1
+      ],
+      [
+        "Vasant Kunj Sector B",
+        1
+      ],
+      [
+        "Rohini Sector 17",
+        1
+      ],
+      [
+        "Ashoka Enclave Apartment, Dwarka Sector 11",
+        1
+      ],
+      [
+        "Sarita Vihar, Mathura Road",
+        1
+      ],
+      [
+        "Sarita Vihar Pocket M",
+        1
+      ],
+      [
+        "Sultanpur",
+        1
+      ],
+      [
+        "Sarita Vihar Pocket K",
+        1
+      ],
+      [
+        "Sarita Vihar Pocket C",
+        1
+      ],
+      [
+        "Sant Nagar",
+        1
+      ],
+      [
+        "Ashok Nagar",
+        1
+      ],
+      [
+        "Palam - Dabri Marg",
+        1
+      ],
+      [
+        "Saini Enclave, Anand Vihar",
+        1
+      ],
+      [
+        "Surya Apartment pocket a11",
+        1
+      ],
+      [
+        "Tagore Garden, Rajouri Garden, Najafgarh Road",
+        1
+      ],
+      [
+        "Aya Nagar Extension",
+        1
+      ],
+      [
+        "Rohini Sector 7",
+        1
+      ],
+      [
+        "Tri Nagar",
+        1
+      ],
+      [
+        "Rohini Sector 5",
+        1
+      ],
+      [
+        "Rohini Sector 4",
+        1
+      ],
+      [
+        "Trilokpuri",
+        1
+      ],
+      [
+        "Unity the Amaryllis, Karol Bagh",
+        1
+      ],
+      [
+        "Anand Parbat",
+        1
+      ],
+      [
+        "V3s East Centre, Laxmi Nagar",
+        1
+      ],
+      [
+        "B-7 veer Singh colony Budh vihar phase 2 delhi",
+        1
+      ],
+      [
+        "Rohini Sector 23",
+        1
+      ],
+      [
+        "Rohini Sector 22",
+        1
+      ],
+      [
+        "Rohini Sector 21",
+        1
+      ],
+      [
+        "Rohini Sector 2",
+        1
+      ],
+      [
+        "Sudarshan Park",
+        1
+      ],
+      [
+        "Amarpali Apartment",
+        1
+      ],
+      [
+        "Vasant Kunj 2, Vasant Kunj",
+        1
+      ],
+      [
+        "Shivalik, Malviya Nagar",
+        1
+      ],
+      [
+        "Munirka",
+        1
+      ],
+      [
+        "Palam",
+        1
+      ],
+      [
+        "Nirankari Colony, Mukherjee Nagar",
+        1
+      ],
+      [
+        "Gharoli",
+        1
+      ],
+      [
+        "Ghitorni",
+        1
+      ],
+      [
+        "Gopalpur",
+        1
+      ],
+      [
+        "Greater Kailash",
+        1
+      ],
+      [
+        "Greater Kailash 1",
+        1
+      ],
+      [
+        "Green Park",
+        1
+      ],
+      [
+        "Hastsal",
+        1
+      ],
+      [
+        "Hauz Khas",
+        1
+      ],
+      [
+        "IGNOU Road, Saket",
+        1
+      ],
+      [
+        "Inder Puri Block A, Inder Puri",
+        1
+      ],
+      [
+        "DDA Flats Block B3, Keshav Puram, Tri Nagar",
+        1
+      ],
+      [
+        "Jai laxmi Apartments, Indraprastha Extension, Patparganj",
+        1
+      ],
+      [
+        "Jamia Nagar, Okhla",
+        1
+      ],
+      [
+        "Janak Park, Hari Nagar",
+        1
+      ],
+      [
+        "DDA Flat AD Block, Shalimar Bagh AD Block",
+        1
+      ],
+      [
+        "Janakpuri Block B1",
+        1
+      ],
+      [
+        "Jangpura",
+        1
+      ],
+      [
+        "Jhangir Puri",
+        1
+      ],
+      [
+        "Jhilmil Colony",
+        1
+      ],
+      [
+        "Geeta Colony PRWS Block 3 And 7, Rajgarh Colony",
+        1
+      ],
+      [
+        "DDA Flats Sector E Pocket 1, Vasant Kunj",
+        1
+      ],
+      [
+        "Gangaram Vatika, Vishnu Garden",
+        1
+      ],
+      [
+        "Dwarka Sector 5",
+        1
+      ],
+      [
+        "Delhi estate Apartment",
+        1
+      ],
+      [
+        "Devli, Sangam Vihar",
+        1
+      ],
+      [
+        "Dilshad Colony",
+        1
+      ],
+      [
+        "Dilshad Garden",
+        1
+      ],
+      [
+        "Dr Mukherjee Nagar West",
+        1
+      ],
+      [
+        "Dwarka Sector 17",
+        1
+      ],
+      [
+        "Dwarka Sector 22",
+        1
+      ],
+      [
+        "Dwarka Sector 23B",
+        1
+      ],
+      [
+        "Dwarka Sector 9",
+        1
+      ],
+      [
+        "Ganga Vihar",
+        1
+      ],
+      [
+        "Dwarka sec 19",
+        1
+      ],
+      [
+        "East End Apartments, Ph. 1ext near new Ashok nagar",
+        1
+      ],
+      [
+        "DJA Apartments, Dwarka Sector 13",
+        1
+      ],
+      [
+        "Falt",
+        1
+      ],
+      [
+        "Fateh Nagar, Janakpuri",
+        1
+      ],
+      [
+        "Gagan Vihar, Krishna Nagar",
+        1
+      ],
+      [
+        "Gandhi Nagar",
+        1
+      ],
+      [
+        "Ganesh Nagar, Tilak Nagar",
+        1
+      ],
+      [
+        "Kadipur",
+        1
+      ],
+      [
+        "Kailash Colony, Greater Kailash",
+        1
+      ],
+      [
+        "Kailash hills, East Of Kailash",
+        1
+      ],
+      [
+        "Cghs apts.",
+        1
+      ],
+      [
+        "Main Ghitorni",
+        1
+      ],
+      [
+        "Cherlopalli TIRUPATI",
+        1
+      ],
+      [
+        "Manak Vihar, Anand Vihar",
+        1
+      ],
+      [
+        "Mandawali",
+        1
+      ],
+      [
+        "Mansa Ram Park",
+        1
+      ],
+      [
+        "Mansarovar garden",
+        1
+      ],
+      [
+        "Mayur Vihar 3",
+        1
+      ],
+      [
+        "Chanakya Place, Sitapuri",
+        1
+      ],
+      [
+        "Bijwasan",
+        1
+      ],
+      [
+        "Chhattarpur Enclave Phase1, Chhattarpur",
+        1
+      ],
+      [
+        "Munirka Vihar, Munirka",
+        1
+      ],
+      [
+        "Bharthal, Dwarka",
+        1
+      ],
+      [
+        "Nalanda Apartment, Vikaspuri",
+        1
+      ],
+      [
+        "Narela",
+        1
+      ],
+      [
+        "Naveen Shahdara, Shahdara",
+        1
+      ],
+      [
+        "Nawada",
+        1
+      ],
+      [
+        "Bhalswa",
+        1
+      ],
+      [
+        "New Ashok Nagar",
+        1
+      ],
+      [
+        "Maidan Garhi, Chhattarpur",
+        1
+      ],
+      [
+        "Mahendru Enclave, Model Town",
+        1
+      ],
+      [
+        "DDA Devdoot Apartment, Vikaspuri",
+        1
+      ],
+      [
+        "Krishna Nagar",
+        1
+      ],
+      [
+        "Kalkaji Extension",
+        1
+      ],
+      [
+        "Kapi Bagan Basti",
+        1
+      ],
+      [
+        "Karawal Nagar",
+        1
+      ],
+      [
+        "DDA Akshardham Apartments, DS 19",
+        1
+      ],
+      [
+        "Kasturba Niketan, Lajpat Nagar 2",
+        1
+      ],
+      [
+        "Khanpur Extension, Sangam Vihar",
+        1
+      ],
+      [
+        "Kohinoor Apartment, Kalkaji Extention",
+        1
+      ],
+      [
+        "Kotla Mubarakpur, South Extension",
+        1
+      ],
+      [
+        "Krishna Nagar Block D",
+        1
+      ],
+      [
+        "Mahavir Enclave Part 3",
+        1
+      ],
+      [
+        "Krishna Park",
+        1
+      ],
+      [
+        "Lado Sarai",
+        1
+      ],
+      [
+        "Chittaranjan Park Block B",
+        1
+      ],
+      [
+        "Chitra Vihar, Swasthya Vihar",
+        1
+      ],
+      [
+        "Chirag Delhi",
+        1
+      ],
+      [
+        "Laxmi Nagar District Centre, Laxmi Nagar",
+        1
+      ],
+      [
+        "Mahaveer Nagar",
+        1
+      ],
+      [
+        "Adarsh Nagar",
+        1
+      ],
+      [
+        "north chajjupur shahdara",
+        1
+      ]
+    ],
+    "Hyderabad": [
+      [
+        "Gachibowli",
+        21
+      ],
+      [
+        "Miyapur, NH 9",
+        17
+      ],
+      [
+        "Banjara Hills, NH 9",
+        16
+      ],
+      [
+        "Kondapur",
+        15
+      ],
+      [
+        "Attapur",
+        13
+      ],
+      [
+        "Kukatpally, NH 9",
+        12
+      ],
+      [
+        "Nallagandla, Serilingampally",
+        10
+      ],
+      [
+        "Bandlaguda Jagir",
+        10
+      ],
+      [
+        "Manikonda, Outer Ring Road",
+        10
+      ],
+      [
+        "Sainikpuri",
+        9
+      ],
+      [
+        "Kapra",
+        9
+      ],
+      [
+        "Boduppal, NH 2 2",
+        9
+      ],
+      [
+        "Uppal, NH 2 2",
+        8
+      ],
+      [
+        "Madhapur",
+        8
+      ],
+      [
+        "LB Nagar, NH 9",
+        7
+      ],
+      [
+        "Himayath Nagar, NH 7",
+        7
+      ],
+      [
+        "Old Bowenpally",
+        7
+      ],
+      [
+        "Nizampet",
+        7
+      ],
+      [
+        "Bolarum, Medchal Road",
+        6
+      ],
+      [
+        "Hayathnagar, NH 9",
+        6
+      ],
+      [
+        "Narsingi, Outer Ring Road",
+        6
+      ],
+      [
+        "Rajendra Nagar, Outer Ring Road",
+        6
+      ],
+      [
+        "Jubilee Hills",
+        6
+      ],
+      [
+        "Beeramguda, Ramachandra Puram, NH 9",
+        6
+      ],
+      [
+        "Pragathi Nagar, Kukatpally",
+        6
+      ],
+      [
+        "Nagole",
+        6
+      ],
+      [
+        "Hafeezpet, NH 9",
+        6
+      ],
+      [
+        "Mehdipatnam",
+        6
+      ],
+      [
+        "Old Nallakunta",
+        5
+      ],
+      [
+        "Somajiguda, NH 9",
+        5
+      ],
+      [
+        "Rampally",
+        5
+      ],
+      [
+        "Amberpet",
+        5
+      ],
+      [
+        "Dammaiguda",
+        5
+      ],
+      [
+        "Suchitra Circle",
+        5
+      ],
+      [
+        "Financial District, Nanakram Guda",
+        5
+      ],
+      [
+        "Toli Chowki",
+        5
+      ],
+      [
+        "Kompally",
+        5
+      ],
+      [
+        "Padmarao Nagar, Hyderabad-Karimnagar Highway",
+        4
+      ],
+      [
+        "Chandanagar, NH 9",
+        4
+      ],
+      [
+        "Ram nagar",
+        4
+      ],
+      [
+        "Begumpet",
+        4
+      ],
+      [
+        "Ramachandra Puram, NH 9",
+        4
+      ],
+      [
+        "Kothapet",
+        4
+      ],
+      [
+        "Dr A.S. Rao Nagar",
+        4
+      ],
+      [
+        "Langar Houz",
+        4
+      ],
+      [
+        "BHEL",
+        4
+      ],
+      [
+        "Alwal",
+        4
+      ],
+      [
+        "Hyderguda",
+        4
+      ],
+      [
+        "Jagadgiri Gutta",
+        3
+      ],
+      [
+        "Gopanapalli",
+        3
+      ],
+      [
+        "Almasguda",
+        3
+      ],
+      [
+        "Raj Bhawan Road",
+        3
+      ],
+      [
+        "Hyder Nagar, NH 9",
+        3
+      ],
+      [
+        "Meerpet",
+        3
+      ],
+      [
+        "Chanda Nagar",
+        3
+      ],
+      [
+        "Serilingampally",
+        3
+      ],
+      [
+        "Saidabad Colony, Sayeedabad",
+        3
+      ],
+      [
+        "New Nallakunta",
+        3
+      ],
+      [
+        "Hyder Shah Kote, Chevella Road",
+        3
+      ],
+      [
+        "Hydershakote",
+        3
+      ],
+      [
+        "Ramanthapur, NH 2 2",
+        3
+      ],
+      [
+        "Kachiguda, NH 2 2",
+        3
+      ],
+      [
+        "Vanasthalipuram, NH 9",
+        3
+      ],
+      [
+        "Tarnaka",
+        3
+      ],
+      [
+        "Malkajgiri",
+        3
+      ],
+      [
+        "Puppalaguda",
+        3
+      ],
+      [
+        "Habsiguda, NH 2 2",
+        3
+      ],
+      [
+        "Pocharam, NH 2 2",
+        3
+      ],
+      [
+        "Peerzadiguda, NH 2 2",
+        3
+      ],
+      [
+        "Bachupally",
+        3
+      ],
+      [
+        "Musheerabad",
+        3
+      ],
+      [
+        "Upparpally, Hyderabad Expressway",
+        3
+      ],
+      [
+        "Borabanda",
+        3
+      ],
+      [
+        "Moula Ali",
+        3
+      ],
+      [
+        "Ashok Nagar, Himayath Nagar",
+        3
+      ],
+      [
+        "Nagaram",
+        3
+      ],
+      [
+        "Rasoolpura, Mahatma Gandhi Road",
+        2
+      ],
+      [
+        "Peeramcheru",
+        2
+      ],
+      [
+        "Malakpet, NH 9",
+        2
+      ],
+      [
+        "Red Hills, Lakdikapul, NH 7",
+        2
+      ],
+      [
+        "Quthbullapur, NH 7",
+        2
+      ],
+      [
+        "Mallampet, Outer Ring Road",
+        2
+      ],
+      [
+        "Medipally",
+        2
+      ],
+      [
+        "Kokapet, Outer Ring Road",
+        2
+      ],
+      [
+        "Nanakaramguda",
+        2
+      ],
+      [
+        "Old Malakpet, NH 9",
+        2
+      ],
+      [
+        "Khaja Guda, Outer Ring Road",
+        2
+      ],
+      [
+        "Jeedimetla",
+        2
+      ],
+      [
+        "Khairatabad, NH 7",
+        2
+      ],
+      [
+        "Prem nagar-Erragadda",
+        2
+      ],
+      [
+        "KPHB Road",
+        2
+      ],
+      [
+        "Karmanghat",
+        2
+      ],
+      [
+        "Madinaguda, Hafeezpet, NH 9",
+        2
+      ],
+      [
+        "Nanakram Guda",
+        2
+      ],
+      [
+        "Safilguda, Secunderabad",
+        2
+      ],
+      [
+        "Trimulgherry",
+        2
+      ],
+      [
+        "Sanath Nagar, NH 9",
+        2
+      ],
+      [
+        "Allwyn Colony",
+        2
+      ],
+      [
+        "Chanda Naik Nagar, Madhapur",
+        2
+      ],
+      [
+        "Ameenpur",
+        2
+      ],
+      [
+        "Upperpally",
+        2
+      ],
+      [
+        "Chintalakunta",
+        2
+      ],
+      [
+        "Shamshabad",
+        2
+      ],
+      [
+        "Shaikpet",
+        2
+      ],
+      [
+        "Suraram",
+        2
+      ],
+      [
+        "Santosh Nagar",
+        2
+      ],
+      [
+        "Basheer Bagh, NH 7",
+        2
+      ],
+      [
+        "Bandam Kommu",
+        2
+      ],
+      [
+        "Tellapur, Outer Ring Road",
+        2
+      ],
+      [
+        "Rock Town Colony",
+        2
+      ],
+      [
+        "Ghatkesar, NH 2 2",
+        2
+      ],
+      [
+        "Alkapur Township, Manikonda, Outer Ring Road",
+        2
+      ],
+      [
+        "Gandhamguda, Bairagiguda",
+        2
+      ],
+      [
+        "Vahini nagar, Karkhana, Hyderabad road no 2a",
+        1
+      ],
+      [
+        "Vidya Nagar",
+        1
+      ],
+      [
+        "Panjagutta Colony",
+        1
+      ],
+      [
+        "Opposite andhra mahila sabha",
+        1
+      ],
+      [
+        "Venkataramana Colony, Secunderabad",
+        1
+      ],
+      [
+        "Vidyanagar",
+        1
+      ],
+      [
+        "Vijay nagar colony m",
+        1
+      ],
+      [
+        "Osman Nagar",
+        1
+      ],
+      [
+        "Patelguda",
+        1
+      ],
+      [
+        "Pathar Gatti, NH 7",
+        1
+      ],
+      [
+        "Vinayaka Nagar",
+        1
+      ],
+      [
+        "Patrika Nagar, Hitech City",
+        1
+      ],
+      [
+        "Vandanapuri colony",
+        1
+      ],
+      [
+        "Road no 3 banjara hills hyderabad 500035",
+        1
+      ],
+      [
+        "Opp. Deccan college, Darusalam",
+        1
+      ],
+      [
+        "in Maruthi Nagar-Dr A.S. Rao Nagar",
+        1
+      ],
+      [
+        "New Malakpet",
+        1
+      ],
+      [
+        "New Nagole Colony, Kothapet",
+        1
+      ],
+      [
+        "sanath nagar Ashok colony",
+        1
+      ],
+      [
+        "railway employees housing colony Bollarum",
+        1
+      ],
+      [
+        "Nizam Colony",
+        1
+      ],
+      [
+        "poush",
+        1
+      ],
+      [
+        "in Syed Ali Guda",
+        1
+      ],
+      [
+        "in Kushaiguda",
+        1
+      ],
+      [
+        "Vittal Rao Nagar, Hitech City",
+        1
+      ],
+      [
+        "in Bandlaguda Jagir",
+        1
+      ],
+      [
+        "in 1-71/1/a",
+        1
+      ],
+      [
+        "OU Colony-Shaikpet",
+        1
+      ],
+      [
+        "filmnagar. hydrabad",
+        1
+      ],
+      [
+        "Old Alwal",
+        1
+      ],
+      [
+        "aparna sarovar grande",
+        1
+      ],
+      [
+        "Yeshwanthpur",
+        1
+      ],
+      [
+        "Yousufguda, NH 9",
+        1
+      ],
+      [
+        "Tarapuri Colony, Secunderabad",
+        1
+      ],
+      [
+        "Troop Bazaar, Koti",
+        1
+      ],
+      [
+        "Sitaphalmandi, Padmarao Nagar",
+        1
+      ],
+      [
+        "Siddhi Vinayak Nagar, Madhapur",
+        1
+      ],
+      [
+        "Rajendra Mandal",
+        1
+      ],
+      [
+        "Shivaji Nagar",
+        1
+      ],
+      [
+        "Ram Bagh Colony",
+        1
+      ],
+      [
+        "Shamirpet",
+        1
+      ],
+      [
+        "Secunderabad",
+        1
+      ],
+      [
+        "Saroornagar, NH 9",
+        1
+      ],
+      [
+        "Sangareddy District",
+        1
+      ],
+      [
+        "Ramchandrapuram Mandal",
+        1
+      ],
+      [
+        "Saidabad",
+        1
+      ],
+      [
+        "Sai Raghavendra Colony, uppal",
+        1
+      ],
+      [
+        "Sai Nagar-Uppal",
+        1
+      ],
+      [
+        "Netaji Nagar Colony, Langar Houz",
+        1
+      ],
+      [
+        "SV Nagar, Secunderabad",
+        1
+      ],
+      [
+        "Rethibowli, Mehdipatnam",
+        1
+      ],
+      [
+        "Ragannaguda, Outer Ring Road",
+        1
+      ],
+      [
+        "RTC Colony-Chandanagar",
+        1
+      ],
+      [
+        "Petbasheerabad",
+        1
+      ],
+      [
+        "Qutub Shahi Tombs",
+        1
+      ],
+      [
+        "Pocharam, Hyderabad near infosys",
+        1
+      ],
+      [
+        "Thumukunta",
+        1
+      ],
+      [
+        "Rhoda Mistri Nagar",
+        1
+      ],
+      [
+        "Pragathi Nagar, Moosapet",
+        1
+      ],
+      [
+        "TNGOS Colony",
+        1
+      ],
+      [
+        "Sun City, Bandlaguda, Chevella Road",
+        1
+      ],
+      [
+        "Prakash Nagar",
+        1
+      ],
+      [
+        "Prashanth hills",
+        1
+      ],
+      [
+        "Subhash Nagar, Secunderabad",
+        1
+      ],
+      [
+        "Srisailam Highway",
+        1
+      ],
+      [
+        "Srinivasa Colony, Secunderabad",
+        1
+      ],
+      [
+        "Srini kunj Anasuya Enclave, Lingampally, Kachiguda, Hyderabad",
+        1
+      ],
+      [
+        "Srinagar Colony, Old Malakpet, NH 9",
+        1
+      ],
+      [
+        "Sri Nagar Colony",
+        1
+      ],
+      [
+        "Sri BALAJI CLASSIC BHAVANI NAGAR RD NO 5",
+        1
+      ],
+      [
+        "New Boiguda, Boiguda",
+        1
+      ],
+      [
+        " in Boduppal, NH 2 2",
+        1
+      ],
+      [
+        "Neknampur, Manikonda, Outer Ring Road",
+        1
+      ],
+      [
+        "Nawab Saheb Kunta",
+        1
+      ],
+      [
+        "Bandari Layout",
+        1
+      ],
+      [
+        "Bapu Nagar, Lakdikapul",
+        1
+      ],
+      [
+        "Bapu Nagar-Langar Houz",
+        1
+      ],
+      [
+        "Basheer Bagh, Hyderabad,",
+        1
+      ],
+      [
+        "Bhagya Nagar Colony, Secunderabad",
+        1
+      ],
+      [
+        "Bharat Nagar, Moosapet",
+        1
+      ],
+      [
+        "Bheeram guda",
+        1
+      ],
+      [
+        "Bollaram, Outer Ring Road",
+        1
+      ],
+      [
+        "Bongloor, Outer Ring Road",
+        1
+      ],
+      [
+        "Bowenpally",
+        1
+      ],
+      [
+        "Buddha Nagar Colony, Boduppal",
+        1
+      ],
+      [
+        "Budwel",
+        1
+      ],
+      [
+        "Camelot Layout",
+        1
+      ],
+      [
+        "Chanchalguda",
+        1
+      ],
+      [
+        "Chandrayanguttabalguda",
+        1
+      ],
+      [
+        "Chandulal bela colony, shahalibanda",
+        1
+      ],
+      [
+        "Chilakalguda",
+        1
+      ],
+      [
+        "Chintal, NH 7",
+        1
+      ],
+      [
+        "DNM Colony, Sanath Nagar",
+        1
+      ],
+      [
+        "Defence Colony Layout",
+        1
+      ],
+      [
+        "Dellapur",
+        1
+      ],
+      [
+        "Dharmapuri Colony",
+        1
+      ],
+      [
+        "Dhulapally",
+        1
+      ],
+      [
+        "Dilsukh Nagar, NH 9",
+        1
+      ],
+      [
+        "Dwarakapuri, Punjagutta, NH 9",
+        1
+      ],
+      [
+        "Balapur",
+        1
+      ],
+      [
+        "Balanagar",
+        1
+      ],
+      [
+        "Badesahebguda",
+        1
+      ],
+      [
+        "Alijapur, Qutub Shahi Tombs",
+        1
+      ],
+      [
+        " in Miyapur, NH 9",
+        1
+      ],
+      [
+        "5-20 Adharshnagar",
+        1
+      ],
+      [
+        "APHB Colony-Moula Ali, Moula Ali Road",
+        1
+      ],
+      [
+        "Abhyudaya Nagar",
+        1
+      ],
+      [
+        "Abids, NH 7",
+        1
+      ],
+      [
+        "Adibatla",
+        1
+      ],
+      [
+        "Adikmet",
+        1
+      ],
+      [
+        "Akhilandeswari Nagar",
+        1
+      ],
+      [
+        "Akkineni Homes Yousufguda",
+        1
+      ],
+      [
+        "Akshya nagar, Raghavendra colony, Road no:4,Boduppal",
+        1
+      ],
+      [
+        "Ali Bagh Kala pather",
+        1
+      ],
+      [
+        "Alkapur Township, Hyderabad",
+        1
+      ],
+      [
+        "BN Reddy Nagar",
+        1
+      ],
+      [
+        "Ambedkar Nagar-Boduppal, Secunderabad",
+        1
+      ],
+      [
+        "Aminpur",
+        1
+      ],
+      [
+        "Ammenpur",
+        1
+      ],
+      [
+        "Anand Nagar-Khairatabad, NH 7",
+        1
+      ],
+      [
+        "Anandbagh, Secunderabad, Moula Ali Road",
+        1
+      ],
+      [
+        "Anupuram Colony",
+        1
+      ],
+      [
+        "Aruna Colony",
+        1
+      ],
+      [
+        "Arvind Nagar Colony, Toli Chowki",
+        1
+      ],
+      [
+        "Ayodhya Nagar, Quthbullapur",
+        1
+      ],
+      [
+        "B N Reddy Nagar, Nagarjuna Sagar Road",
+        1
+      ],
+      [
+        "B.S.Maktha",
+        1
+      ],
+      [
+        "ECIL",
+        1
+      ],
+      [
+        "East Nehru Nagar",
+        1
+      ],
+      [
+        "Fathenagar",
+        1
+      ],
+      [
+        "Mallikarjuna Nagar, Secunderabad",
+        1
+      ],
+      [
+        "Koti, NH 9",
+        1
+      ],
+      [
+        "Kukatpally Housing Board Colony, NH 9",
+        1
+      ],
+      [
+        "Kuntloor",
+        1
+      ],
+      [
+        "LIG Colony",
+        1
+      ],
+      [
+        "Lakdikapul, NH 9",
+        1
+      ],
+      [
+        "Lalaguda, Secunderabad",
+        1
+      ],
+      [
+        "Lingampally-Serilingampally, NH 2 2",
+        1
+      ],
+      [
+        " in Erragadda, NH 9",
+        1
+      ],
+      [
+        "Madhura Nagar",
+        1
+      ],
+      [
+        "Madhura Nagar-Nizampet",
+        1
+      ],
+      [
+        "Mallepally, NH 7",
+        1
+      ],
+      [
+        "Masab Tank",
+        1
+      ],
+      [
+        "Khanapur",
+        1
+      ],
+      [
+        "Mithila Nagar-Banjara Hills",
+        1
+      ],
+      [
+        "Model Town Colony, Nawab Saheb Kunta",
+        1
+      ],
+      [
+        "Modi Paradise, Hayathnagar, Hyderabad",
+        1
+      ],
+      [
+        "Moosarambagh, NH 9",
+        1
+      ],
+      [
+        "Moti Nagar",
+        1
+      ],
+      [
+        "Murad Nagar, Lal Darwaza, Falaknuma Road",
+        1
+      ],
+      [
+        "Mythri Nagar, Hafeezpet, NH 9",
+        1
+      ],
+      [
+        "Nalagandla",
+        1
+      ],
+      [
+        "Narayanaguda",
+        1
+      ],
+      [
+        "Narayanguda",
+        1
+      ],
+      [
+        "Naseeb Nagar, Hyderabad",
+        1
+      ],
+      [
+        "Kismatpur, Outer Ring Road",
+        1
+      ],
+      [
+        "Kattedan Rd",
+        1
+      ],
+      [
+        "Film Nagar",
+        1
+      ],
+      [
+        "Hormany nest Apartments gandipet Apartmentge hyderabad, Hyderabad",
+        1
+      ],
+      [
+        "Gangaram, Chandanagar, NH 9",
+        1
+      ],
+      [
+        "Gayatri Hills, Jubilee Hills",
+        1
+      ],
+      [
+        "Godavari Homes, Quthbullapur",
+        1
+      ],
+      [
+        "Gouri Shankar Nagar Colony, Banjara Hills",
+        1
+      ],
+      [
+        "Gudimalkapur",
+        1
+      ],
+      [
+        "Gulmohar Park Colony, Serilingampally",
+        1
+      ],
+      [
+        "Gundlapochampally, Outer Ring Road",
+        1
+      ],
+      [
+        "Gurramguda balaj homes p no 4",
+        1
+      ],
+      [
+        "Gwachiwali",
+        1
+      ],
+      [
+        "Hari Hara Puram, B N Reddy Nagar",
+        1
+      ],
+      [
+        "Hitech City",
+        1
+      ],
+      [
+        "Hyderabad",
+        1
+      ],
+      [
+        "Kanaka Durga Colony, Gudimalkapur",
+        1
+      ],
+      [
+        "Hyderabad Shah Guda",
+        1
+      ],
+      [
+        "IDA Uppal",
+        1
+      ],
+      [
+        "Indis VB CITY, Bollaram railway station",
+        1
+      ],
+      [
+        "Jaya Puri Colony, Nagole",
+        1
+      ],
+      [
+        "Jillelguda, Medbowli",
+        1
+      ],
+      [
+        "K P H B Phase 9",
+        1
+      ],
+      [
+        "KBR Laxmi Residency",
+        1
+      ],
+      [
+        "KMR Estates, Serilingampally",
+        1
+      ],
+      [
+        "KTR Colony",
+        1
+      ],
+      [
+        "Kakateeya Nagar, Secunderabad",
+        1
+      ],
+      [
+        "Kakatiya Hills Madhapur",
+        1
+      ],
+      [
+        "sri sai arcade madinaguda",
+        1
+      ]
+    ],
+    "Kolkata": [
+      [
+        "Salt Lake City Sector 2",
+        15
+      ],
+      [
+        "Kasba",
+        12
+      ],
+      [
+        "Salt Lake City Sector 1",
+        11
+      ],
+      [
+        "Behala",
+        10
+      ],
+      [
+        "Salt Lake City Sector 5",
+        9
+      ],
+      [
+        "Bansdroni",
+        8
+      ],
+      [
+        "Salt Lake City",
+        8
+      ],
+      [
+        "Garia",
+        7
+      ],
+      [
+        "Dum Dum Metro",
+        7
+      ],
+      [
+        "Dum Dum",
+        7
+      ],
+      [
+        "Thakurpukur",
+        7
+      ],
+      [
+        "Birati",
+        7
+      ],
+      [
+        "Santoshpur",
+        7
+      ],
+      [
+        "Keshtopur",
+        6
+      ],
+      [
+        "Baghajatin",
+        6
+      ],
+      [
+        "Garia Station, Garia",
+        5
+      ],
+      [
+        "Baguiati",
+        5
+      ],
+      [
+        "Barrackpore",
+        5
+      ],
+      [
+        "Shyam Bazar",
+        4
+      ],
+      [
+        "Sodepur",
+        4
+      ],
+      [
+        "Sonarpur",
+        4
+      ],
+      [
+        "Ballygunge",
+        4
+      ],
+      [
+        "Baishnabghata Patuli Township, Patuli",
+        4
+      ],
+      [
+        "Howrah",
+        4
+      ],
+      [
+        "Tollygunge",
+        4
+      ],
+      [
+        "Kaikhali",
+        4
+      ],
+      [
+        "Hooghly-Chinsurah",
+        4
+      ],
+      [
+        "Salt Lake City Sector 3",
+        3
+      ],
+      [
+        "Jadavpur",
+        3
+      ],
+      [
+        "Agarpara",
+        3
+      ],
+      [
+        "Belghoria",
+        3
+      ],
+      [
+        "Lake Gardens",
+        3
+      ],
+      [
+        "Lake Town",
+        3
+      ],
+      [
+        "Rabindra Pally, Keshtopur",
+        3
+      ],
+      [
+        "Behala Chowrasta",
+        3
+      ],
+      [
+        "Dum Dum Cantonment",
+        3
+      ],
+      [
+        "Sakher Bazar, Purba Barisha",
+        3
+      ],
+      [
+        "Barasat",
+        3
+      ],
+      [
+        "Baguihati",
+        3
+      ],
+      [
+        "Haridevpur, Paschim Putiary",
+        2
+      ],
+      [
+        "Jyangra",
+        2
+      ],
+      [
+        "Gandhi Colony, Netaji Nagar",
+        2
+      ],
+      [
+        "Dumdum Park",
+        2
+      ],
+      [
+        "Dakshineswar",
+        2
+      ],
+      [
+        "Silpara, Purba Barisha",
+        2
+      ],
+      [
+        "Chandannagar, Hooghly-Chinsurah",
+        2
+      ],
+      [
+        "Rajarhat",
+        2
+      ],
+      [
+        "Bisharpara",
+        2
+      ],
+      [
+        "Joka",
+        2
+      ],
+      [
+        "Jadavpur University",
+        2
+      ],
+      [
+        "Baksara",
+        2
+      ],
+      [
+        "Madhyam Gram",
+        2
+      ],
+      [
+        "Naihati",
+        2
+      ],
+      [
+        "Park Circus, Ballygunge",
+        2
+      ],
+      [
+        "Malancha",
+        2
+      ],
+      [
+        "Bandel",
+        2
+      ],
+      [
+        "Amtala, Diamond Harbour Road",
+        2
+      ],
+      [
+        "Ajoy Nagar",
+        2
+      ],
+      [
+        "Baranagar",
+        2
+      ],
+      [
+        "Baruipur",
+        2
+      ],
+      [
+        "Beliaghata",
+        2
+      ],
+      [
+        "Kumarpara, Narendrapur",
+        2
+      ],
+      [
+        "Action Area 1, Rajarhat Newtown",
+        2
+      ],
+      [
+        "Sreebhumi",
+        2
+      ],
+      [
+        "Ramchandrapur north",
+        1
+      ],
+      [
+        "New town near ecopark .",
+        1
+      ],
+      [
+        "Nungi More",
+        1
+      ],
+      [
+        "Ramkrishna Pally, Kaikhali",
+        1
+      ],
+      [
+        "Rajdanga Gardens, Kasba",
+        1
+      ],
+      [
+        "New Town Action Area 1",
+        1
+      ],
+      [
+        "Nilgung Old Bazar",
+        1
+      ],
+      [
+        "Nimta",
+        1
+      ],
+      [
+        "New Town",
+        1
+      ],
+      [
+        "Noapara, Addarsha Pally",
+        1
+      ],
+      [
+        "Purba Putiary",
+        1
+      ],
+      [
+        "Pancha Sayar",
+        1
+      ],
+      [
+        "Panchanantala Road",
+        1
+      ],
+      [
+        "Project Kaikhali, Vip Road",
+        1
+      ],
+      [
+        "Parnashree Lake, Behala",
+        1
+      ],
+      [
+        "Parnasree Pally",
+        1
+      ],
+      [
+        "Rabindrapally Kestopur",
+        1
+      ],
+      [
+        "Rabindra Sarovar Metro",
+        1
+      ],
+      [
+        "Pathak Para, Behala",
+        1
+      ],
+      [
+        "Rabindra Sarobar Area, Dhakuria",
+        1
+      ],
+      [
+        "Phool Bagan, Kankurgachi",
+        1
+      ],
+      [
+        "Purbasan, Thakurpukur",
+        1
+      ],
+      [
+        "Ranikuthi Telephone Exchange",
+        1
+      ],
+      [
+        "Purba Sinthi Area",
+        1
+      ],
+      [
+        "Pratiraksha Nagar",
+        1
+      ],
+      [
+        "2 BHK",
+        1
+      ],
+      [
+        "Rash Behari Avenue Connector",
+        1
+      ],
+      [
+        "Vedic Village, Rajarhat",
+        1
+      ],
+      [
+        "Tarulia, Keshtopur",
+        1
+      ],
+      [
+        "Teghoria, Baguiati",
+        1
+      ],
+      [
+        "Thakurpukur, Kolkata",
+        1
+      ],
+      [
+        "Tiljala Road",
+        1
+      ],
+      [
+        "Tn Chatterjee Street",
+        1
+      ],
+      [
+        "Ultadanga",
+        1
+      ],
+      [
+        "VIP Nagar, E M Bypass",
+        1
+      ],
+      [
+        "Vip Road",
+        1
+      ],
+      [
+        "Survey park, Santoshpur, kolkata",
+        1
+      ],
+      [
+        "Vivek Nagar, Garfa",
+        1
+      ],
+      [
+        "chatana",
+        1
+      ],
+      [
+        "kasba bosepukur",
+        1
+      ],
+      [
+        "rishi aurobindo sarani neat NIOH hospital",
+        1
+      ],
+      [
+        "safuipara",
+        1
+      ],
+      [
+        "sarsuna banerjee para",
+        1
+      ],
+      [
+        "shukhobrishti",
+        1
+      ],
+      [
+        "Tagore Park, Kasba",
+        1
+      ],
+      [
+        "Survey Park",
+        1
+      ],
+      [
+        "Regent Estate, Bijoygarh",
+        1
+      ],
+      [
+        "Santragachi",
+        1
+      ],
+      [
+        "Rishra",
+        1
+      ],
+      [
+        "Sahapur, New Alipore",
+        1
+      ],
+      [
+        "Sahid Nagar",
+        1
+      ],
+      [
+        "Sakuntala Park, Behala",
+        1
+      ],
+      [
+        "Sangati Colony, Netaji Nagar",
+        1
+      ],
+      [
+        "Sankaritola",
+        1
+      ],
+      [
+        "New Garia Metro, New Garia",
+        1
+      ],
+      [
+        "Sarat Ghosh Garden, Dhakuria",
+        1
+      ],
+      [
+        "Sukchar",
+        1
+      ],
+      [
+        "Sarsuna",
+        1
+      ],
+      [
+        "Shrachi Village, Madhyam Gram",
+        1
+      ],
+      [
+        "Shyam Villa V, Dum Dum",
+        1
+      ],
+      [
+        "Siriti, Tollygunge",
+        1
+      ],
+      [
+        "South Baksara",
+        1
+      ],
+      [
+        "South Dum Dum",
+        1
+      ],
+      [
+        "Sukanta Nagar, New Barrakpur",
+        1
+      ],
+      [
+        "New Garia, Garia",
+        1
+      ],
+      [
+        "Kudghat, Ashok Nagar",
+        1
+      ],
+      [
+        "New Barrakpur",
+        1
+      ],
+      [
+        "Belgharia",
+        1
+      ],
+      [
+        "Benia Pukur",
+        1
+      ],
+      [
+        "Bhadrakali",
+        1
+      ],
+      [
+        "Bhawanipur",
+        1
+      ],
+      [
+        "Bidhan Pally, Bansdroni",
+        1
+      ],
+      [
+        "Bijoygarh",
+        1
+      ],
+      [
+        "Bow Bazar",
+        1
+      ],
+      [
+        "Brahmapur",
+        1
+      ],
+      [
+        "Chak Thakurani, Thakurpukur",
+        1
+      ],
+      [
+        "Chinar Park, Rajarhat",
+        1
+      ],
+      [
+        "Dariya",
+        1
+      ],
+      [
+        "Dash Drone, Rajarhat Newtown",
+        1
+      ],
+      [
+        "Dashadron Newtown Rajarhat",
+        1
+      ],
+      [
+        "Dashdrone",
+        1
+      ],
+      [
+        "Dasnagar",
+        1
+      ],
+      [
+        "Dhakuria",
+        1
+      ],
+      [
+        "Dhakuria -South East, Dhakuria",
+        1
+      ],
+      [
+        "Dum Dum Heights, Jessore Road",
+        1
+      ],
+      [
+        "Belgharia Nimta",
+        1
+      ],
+      [
+        "Behala silpara",
+        1
+      ],
+      [
+        "New Alipore",
+        1
+      ],
+      [
+        "Baughati",
+        1
+      ],
+      [
+        "AH Block, Salt Lake",
+        1
+      ],
+      [
+        "Airport Area Behala",
+        1
+      ],
+      [
+        "Airport Near Gate No. 21/2",
+        1
+      ],
+      [
+        "Ananda Pally, Jadavpur",
+        1
+      ],
+      [
+        "Anandapur",
+        1
+      ],
+      [
+        "Anandapuri, Barrackpore",
+        1
+      ],
+      [
+        "Andul",
+        1
+      ],
+      [
+        "Annapurna Apartment, Rajarhat Chowmatha",
+        1
+      ],
+      [
+        "Arobindo Pally, Paschim Putiary",
+        1
+      ],
+      [
+        "Bagbazar",
+        1
+      ],
+      [
+        "Bagha Jatin Pally",
+        1
+      ],
+      [
+        "Baidyabati",
+        1
+      ],
+      [
+        "Baishnabghata, Garia",
+        1
+      ],
+      [
+        "Bangur Avenue, Lake Town",
+        1
+      ],
+      [
+        "Bansdroni Mauza, Krishnanagar",
+        1
+      ],
+      [
+        "Barasat-Barrackpore Road",
+        1
+      ],
+      [
+        "Bata Nagar",
+        1
+      ],
+      [
+        "Dunlop, Dakshineswar, Belgharia Expressway",
+        1
+      ],
+      [
+        "E M Bypass",
+        1
+      ],
+      [
+        "Em Bypass South East",
+        1
+      ],
+      [
+        "Entally",
+        1
+      ],
+      [
+        "Konnagar",
+        1
+      ],
+      [
+        "700051",
+        1
+      ],
+      [
+        "Kumargali",
+        1
+      ],
+      [
+        "Liluah",
+        1
+      ],
+      [
+        "Madurdaha, Hussainpur",
+        1
+      ],
+      [
+        "Magnolia Prestige, Rajarhat",
+        1
+      ],
+      [
+        "Majarhati",
+        1
+      ],
+      [
+        "Mandirtala",
+        1
+      ],
+      [
+        "Michael Nagar, New Barrakpur",
+        1
+      ],
+      [
+        "Mominpur",
+        1
+      ],
+      [
+        "Mukundapur",
+        1
+      ],
+      [
+        "My Own House",
+        1
+      ],
+      [
+        "Naktala, Garia",
+        1
+      ],
+      [
+        "Narendrapur",
+        1
+      ],
+      [
+        "Natunhat",
+        1
+      ],
+      [
+        "Near DumDum Metro",
+        1
+      ],
+      [
+        "Near Seven Tanks Road Dumdum Station",
+        1
+      ],
+      [
+        "Kodalia, Hooghly-Chinsurah",
+        1
+      ],
+      [
+        "Khardah",
+        1
+      ],
+      [
+        "Kestopur",
+        1
+      ],
+      [
+        "Hatiara Extention",
+        1
+      ],
+      [
+        "FC Block",
+        1
+      ],
+      [
+        "Fartabad, Garia",
+        1
+      ],
+      [
+        "Garfa",
+        1
+      ],
+      [
+        "Garia Dhalua Nabapally",
+        1
+      ],
+      [
+        "Halisahar Station Road, Kanchrapara",
+        1
+      ],
+      [
+        "Haltu",
+        1
+      ],
+      [
+        "Hati Bagan - Bansdroni",
+        1
+      ],
+      [
+        "Hazra, Kalighat",
+        1
+      ],
+      [
+        "Kasba -East",
+        1
+      ],
+      [
+        "Jagacha",
+        1
+      ],
+      [
+        "Jheel Road",
+        1
+      ],
+      [
+        "Jodhpur Park",
+        1
+      ],
+      [
+        "Jote Shibrampur, Joth Shibrampur",
+        1
+      ],
+      [
+        "Kalabagan, Tollygunge",
+        1
+      ],
+      [
+        "Kalyani",
+        1
+      ],
+      [
+        "Kanchrapara",
+        1
+      ],
+      [
+        "tollygunge Kabardanga",
+        1
+      ]
+    ],
+    "Mumbai": [
+      [
+        "Chembur",
+        14
+      ],
+      [
+        "Andheri West",
+        13
+      ],
+      [
+        "Goregaon West",
+        11
+      ],
+      [
+        "Bandra West",
+        10
+      ],
+      [
+        "Chandivali",
+        7
+      ],
+      [
+        "Santacruz West",
+        6
+      ],
+      [
+        "Kandivali West",
+        6
+      ],
+      [
+        "Andheri East",
+        5
+      ],
+      [
+        "Ajmera Bhakti Park, Bhakti Park",
+        5
+      ],
+      [
+        "Shapoorji Pallonji Vicinia, Chandivali",
+        5
+      ],
+      [
+        "Mulund West",
+        5
+      ],
+      [
+        "Borivali East",
+        4
+      ],
+      [
+        "Auris Serenity, Kanch Pada",
+        4
+      ],
+      [
+        "Bhandup West",
+        4
+      ],
+      [
+        "L&T Emerald Isle, Powai",
+        4
+      ],
+      [
+        "Chembur East",
+        4
+      ],
+      [
+        "Powai",
+        4
+      ],
+      [
+        "Lokhandwala Complex",
+        3
+      ],
+      [
+        "Thane-Kalyan-Dombivli",
+        3
+      ],
+      [
+        "Hiranandani Castle Rock, Hiranandani Gardens",
+        3
+      ],
+      [
+        "Dahisar East",
+        3
+      ],
+      [
+        "Lower Parel",
+        3
+      ],
+      [
+        "Worli",
+        3
+      ],
+      [
+        "Prabhadevi",
+        3
+      ],
+      [
+        "Malad East",
+        3
+      ],
+      [
+        "DB Woods, Gokuldham",
+        3
+      ],
+      [
+        "Kanjurmarg East",
+        3
+      ],
+      [
+        "Charkop",
+        3
+      ],
+      [
+        "Mahim West",
+        3
+      ],
+      [
+        "Hiranandani Castle Rock, Powai",
+        3
+      ],
+      [
+        "Ghatkopar West",
+        3
+      ],
+      [
+        "Midas Enclave CHS , Nandiadwala Colony",
+        3
+      ],
+      [
+        "Auris Serenity, Malad West",
+        3
+      ],
+      [
+        "Ghatkopar East",
+        3
+      ],
+      [
+        "Runwal Forests, Kanjurmarg West",
+        3
+      ],
+      [
+        "Nahar Amrit Shakti powai, Chandivali",
+        3
+      ],
+      [
+        "Oberoi Splendor, JVLR-Jogeshwari Vikhroli Link Road",
+        3
+      ],
+      [
+        "Sundar Nagar, Kalina",
+        3
+      ],
+      [
+        "Mulund East",
+        3
+      ],
+      [
+        "Mira Road",
+        3
+      ],
+      [
+        "Santacruz East",
+        3
+      ],
+      [
+        "Sion",
+        3
+      ],
+      [
+        "Tilak Nagar - Harbour Line",
+        2
+      ],
+      [
+        "Lodha New Cuffe Parade, Wadala",
+        2
+      ],
+      [
+        "D.N. Nagar",
+        2
+      ],
+      [
+        "Raj Legacy, Vikhroli West",
+        2
+      ],
+      [
+        "Godrej The Trees, Vikhroli East",
+        2
+      ],
+      [
+        "Sabari Palm View, Chembur",
+        2
+      ],
+      [
+        "Gokul Apartment, Evershine Nagar",
+        2
+      ],
+      [
+        "Ekta Meadows, Borivali East",
+        2
+      ],
+      [
+        "Green Woods Chkala, Andheri East",
+        2
+      ],
+      [
+        "DB Ozone, Mira Road",
+        2
+      ],
+      [
+        "Kurla West",
+        2
+      ],
+      [
+        "RNA ROYALE PARK, Kandivali West",
+        2
+      ],
+      [
+        "Sion East",
+        2
+      ],
+      [
+        "MUKTA MAHEK, Thakur Complex",
+        2
+      ],
+      [
+        "Sunteck City Avenue 1, Goregaon West",
+        2
+      ],
+      [
+        "Goregaon East",
+        2
+      ],
+      [
+        "Mahalaxmi CHS, Worli",
+        2
+      ],
+      [
+        "Gulmohar Road",
+        2
+      ],
+      [
+        "Film City",
+        2
+      ],
+      [
+        "Raheja Heights, Malad East",
+        2
+      ],
+      [
+        "Evershine Millenium Paradise, Thakur Village, Kandivali East",
+        2
+      ],
+      [
+        "Trans Residency, Andheri East",
+        2
+      ],
+      [
+        "Crescent Solitaire, Sakinaka Junction",
+        2
+      ],
+      [
+        "Kalpataru Crest, Bhandup West",
+        2
+      ],
+      [
+        "Malad West",
+        2
+      ],
+      [
+        "Bhandup East",
+        2
+      ],
+      [
+        "Kanakia Levels, Malad East",
+        2
+      ],
+      [
+        "Mira Road East",
+        2
+      ],
+      [
+        "Irla",
+        2
+      ],
+      [
+        "diamond garden, Chembur East",
+        2
+      ],
+      [
+        "Sher E Punjab Society",
+        2
+      ],
+      [
+        "Sheth Montana, Mulund West",
+        2
+      ],
+      [
+        "Oshiwara",
+        2
+      ],
+      [
+        "Altavista, Chembur",
+        2
+      ],
+      [
+        "Collector Colony",
+        2
+      ],
+      [
+        "Parel",
+        2
+      ],
+      [
+        "Bhakti Park",
+        2
+      ],
+      [
+        "Vishnu Shivam Tower, Thakur Village, Kandivali East",
+        2
+      ],
+      [
+        "K Raheja Maple Leaf, Powai",
+        2
+      ],
+      [
+        "Hiranandani Atlantis, Hiranandani Gardens",
+        2
+      ],
+      [
+        "Akruti Orchid Park, Sakinaka Junction",
+        2
+      ],
+      [
+        "Vile Parle West",
+        2
+      ],
+      [
+        "Hillcrest, Andheri East",
+        2
+      ],
+      [
+        "Borivali West",
+        2
+      ],
+      [
+        "Breach Candy",
+        2
+      ],
+      [
+        "Kalina",
+        2
+      ],
+      [
+        "Nakoda Heights, Nalasopara",
+        2
+      ],
+      [
+        "Malabar Hill",
+        2
+      ],
+      [
+        "Challenger Tower, Thakur Village, Kandivali East",
+        2
+      ],
+      [
+        "Nirmal Lifestyle, LBS Marg",
+        2
+      ],
+      [
+        "Promenade At The Address, Ghatkopar West",
+        2
+      ],
+      [
+        "Sethia Grandeur, Bandra East",
+        2
+      ],
+      [
+        "SK Imperial Heights, Mira Road East",
+        1
+      ],
+      [
+        "Sapphire Heights, Lokhandwala Twp",
+        1
+      ],
+      [
+        "Rustomjee Regency, Gomant Nagar",
+        1
+      ],
+      [
+        "Sai Palace Apartment, Vile Parle West",
+        1
+      ],
+      [
+        "Sanjona Gulmarg Towers, Chembur East",
+        1
+      ],
+      [
+        "Saaga Mrunali CHS, Shantivan",
+        1
+      ],
+      [
+        "Safal Saraswati, Chembur",
+        1
+      ],
+      [
+        "Samarth Srishti, Bhandup West",
+        1
+      ],
+      [
+        "Salvation CHS, Dadar West",
+        1
+      ],
+      [
+        "Sai Aasha Daya, Mulund East",
+        1
+      ],
+      [
+        "Rustomjee Central Park, Chakala",
+        1
+      ],
+      [
+        "Sakhi, Kandivali West",
+        1
+      ],
+      [
+        "Sanghvi Evana, Worli",
+        1
+      ],
+      [
+        "7 Bungalow, Seven Bungalows",
+        1
+      ],
+      [
+        "Runwal Greens, Mulund West",
+        1
+      ],
+      [
+        "Omkar Meridia, Bandra Kurla Complex",
+        1
+      ],
+      [
+        "Parle Colony",
+        1
+      ],
+      [
+        "Parinee Adney, Borivali West",
+        1
+      ],
+      [
+        "Pant Nagar",
+        1
+      ],
+      [
+        "Panch Ritu, Chandivali",
+        1
+      ],
+      [
+        "Orchid Suburbia, Bander Pakhadi",
+        1
+      ],
+      [
+        "Orchid Residency, Link Road",
+        1
+      ],
+      [
+        "Opera House",
+        1
+      ],
+      [
+        "Omkar Ananta, Goregaon East",
+        1
+      ],
+      [
+        "Perry Rd",
+        1
+      ],
+      [
+        "Omkar Ananta, Film City Road",
+        1
+      ],
+      [
+        "Omkar Alta Monte, Kurar Village",
+        1
+      ],
+      [
+        "Odyssey Bhakti Park, Bhakti Park",
+        1
+      ],
+      [
+        "Oberoi Woods, Goregaon East",
+        1
+      ],
+      [
+        "Oberoi Springs, Andheri West",
+        1
+      ],
+      [
+        "Oasis, Lokhandwala Twp",
+        1
+      ],
+      [
+        "Oasis, Akurli Nagar",
+        1
+      ],
+      [
+        "Paschim Apartments, Prabhadevi",
+        1
+      ],
+      [
+        "Platinum Prive, Andheri West",
+        1
+      ],
+      [
+        "Royal Residency, Lal Baug",
+        1
+      ],
+      [
+        "Raj Hill, Borivali East",
+        1
+      ],
+      [
+        "Royal Palms, Goregaon East",
+        1
+      ],
+      [
+        "Royal Palms Diamond Isle Phase II, Aarey Milk Colony",
+        1
+      ],
+      [
+        "Rose Queen, Old Khar",
+        1
+      ],
+      [
+        "Rivali Park, Borivali East",
+        1
+      ],
+      [
+        "Riddhi Garden, Film City Road",
+        1
+      ],
+      [
+        "Ratan Silicon Park, Jankalyan Nagar",
+        1
+      ],
+      [
+        "Rajesh Raj Classic, Yari Road",
+        1
+      ],
+      [
+        "Raheja Vista, Powai",
+        1
+      ],
+      [
+        "Poisar",
+        1
+      ],
+      [
+        "Raheja Ridgewood, Goregaon East",
+        1
+      ],
+      [
+        "Raheja Heights, BMC Colony Malad East",
+        1
+      ],
+      [
+        "Raheja Heights Phase 2, Gokuldham",
+        1
+      ],
+      [
+        "Satyam Springs, Deonar",
+        1
+      ],
+      [
+        "Queens Palace, Bandra West",
+        1
+      ],
+      [
+        "Prathamesh Heritage, Beverly Park",
+        1
+      ],
+      [
+        "Prasanna Vastu Chs, Jankalyan Nagar",
+        1
+      ],
+      [
+        "Raheja Exotica Sorento, Madh",
+        1
+      ],
+      [
+        "Sindhi Society, Chembur",
+        1
+      ],
+      [
+        "Sejal Tower, Goregaon West",
+        1
+      ],
+      [
+        "Vile Parle East",
+        1
+      ],
+      [
+        "Walkeshwar",
+        1
+      ],
+      [
+        "Wadhwa Atmosphere, Mulund West",
+        1
+      ],
+      [
+        "Wadhwa Atmoshphere, Mulund West",
+        1
+      ],
+      [
+        "Wadala",
+        1
+      ],
+      [
+        "Virar West",
+        1
+      ],
+      [
+        "Virar",
+        1
+      ],
+      [
+        "Violette Valley, Bandra West",
+        1
+      ],
+      [
+        "Vintage Pearl Apartment, Bandra West",
+        1
+      ],
+      [
+        "Vile Parle",
+        1
+      ],
+      [
+        "Yari Road",
+        1
+      ],
+      [
+        "Vikhroli West",
+        1
+      ],
+      [
+        "Vikas Finalay Apartments, Parel",
+        1
+      ],
+      [
+        "Vijaya Heritage, Chembur",
+        1
+      ],
+      [
+        "Velentine Tower, Goregaon East",
+        1
+      ],
+      [
+        "Vasant Sagar, Thakur Village, Kandivali East",
+        1
+      ],
+      [
+        "Vasant Oscar, Mulund West",
+        1
+      ],
+      [
+        "Vasant Marvel, Magathane",
+        1
+      ],
+      [
+        "Valentine Apartments, Gokuldham",
+        1
+      ],
+      [
+        "White Lily Apartment, Bhandup East",
+        1
+      ],
+      [
+        "Yashodham",
+        1
+      ],
+      [
+        "Utkarsh CHS, Prabhadevi",
+        1
+      ],
+      [
+        "new panvel",
+        1
+      ],
+      [
+        "sunanda circal",
+        1
+      ],
+      [
+        "sra",
+        1
+      ],
+      [
+        "spring grove uno, Lokhandwala Twp",
+        1
+      ],
+      [
+        "simla house at nepeasea road, Napean Sea Road",
+        1
+      ],
+      [
+        "shivsagar",
+        1
+      ],
+      [
+        "shanti kutir tunga village powai",
+        1
+      ],
+      [
+        "shabri shan",
+        1
+      ],
+      [
+        "orchid suburbia",
+        1
+      ],
+      [
+        "lokhandwala residency, Worli",
+        1
+      ],
+      [
+        "Yashodham Complex, Goregaon East",
+        1
+      ],
+      [
+        "in Sion",
+        1
+      ],
+      [
+        "in Santacruz East",
+        1
+      ],
+      [
+        "in Mira Road",
+        1
+      ],
+      [
+        "in Matunga West",
+        1
+      ],
+      [
+        "in Mahim West",
+        1
+      ],
+      [
+        "in Kandivali West",
+        1
+      ],
+      [
+        "in Borivali West",
+        1
+      ],
+      [
+        "Yogi Hills, Mulund West",
+        1
+      ],
+      [
+        "Vaibhav Apartments, Dadar West",
+        1
+      ],
+      [
+        "Usha Nagar Society, Bhandup West",
+        1
+      ],
+      [
+        "Serenity Complex",
+        1
+      ],
+      [
+        "Shri Swami Samarth Nagar",
+        1
+      ],
+      [
+        "Sky Villa, Gokuldham",
+        1
+      ],
+      [
+        "Sion Trombay Road",
+        1
+      ],
+      [
+        "Sion East, Sion Koliwada",
+        1
+      ],
+      [
+        "Sion East, Sion",
+        1
+      ],
+      [
+        "New Devchhaya Building",
+        1
+      ],
+      [
+        "Sindhi Society Chembur",
+        1
+      ],
+      [
+        "Siddhivinayak, Bandra West",
+        1
+      ],
+      [
+        "Shrikrupa Society",
+        1
+      ],
+      [
+        "Shree Sai Usha Complex, Bhandup West",
+        1
+      ],
+      [
+        "Srinagarchs chembur west near sankralyammandir",
+        1
+      ],
+      [
+        "Shivaji Park",
+        1
+      ],
+      [
+        "Shiv Ganga Apartment, Malad West",
+        1
+      ],
+      [
+        "Shiv Bhagtani Manor 3A, Powai",
+        1
+      ],
+      [
+        "Shimpla Vighnaharta CHS, Seven Bungalows",
+        1
+      ],
+      [
+        "Shilphata",
+        1
+      ],
+      [
+        "Shaheen Apartment, Andheri West",
+        1
+      ],
+      [
+        "Seven Bungalows",
+        1
+      ],
+      [
+        "Sethia Kalpavruksh Heights, Irani Wada",
+        1
+      ],
+      [
+        "Sonal Apartment, Bhandari Compound",
+        1
+      ],
+      [
+        "Srishti Solitaire, Bhandup Industrial Estate",
+        1
+      ],
+      [
+        "Universal Neo Galaxy, Bhuleshwar",
+        1
+      ],
+      [
+        "Taloja Phase 2",
+        1
+      ],
+      [
+        "Union Park",
+        1
+      ],
+      [
+        "Unicorn Global Arena, Naigaon East",
+        1
+      ],
+      [
+        "Tulip at Runwal Forests, Kanjurmarg West",
+        1
+      ],
+      [
+        "Tridhaatu Bhaveshwar Vilas, Central Avenue Road",
+        1
+      ],
+      [
+        "The Windsor, Kandivali East",
+        1
+      ],
+      [
+        "Thakur Jewel, Thakur Village, Kandivali East",
+        1
+      ],
+      [
+        "Thakur Complex",
+        1
+      ],
+      [
+        "Techno Park I, Kandivali East",
+        1
+      ],
+      [
+        "Takshila CHS, Andheri East",
+        1
+      ],
+      [
+        "Sugee Sadan, Dadar West",
+        1
+      ],
+      [
+        "TATA Housing Merwanjee Cama Park, Andheri West",
+        1
+      ],
+      [
+        "TATA Falcon Crest, Parel",
+        1
+      ],
+      [
+        "Swayam Apartment, Poonam Gardens",
+        1
+      ],
+      [
+        "Suryodaya CHS, Prabhadevi",
+        1
+      ],
+      [
+        "Suram Park Society",
+        1
+      ],
+      [
+        "Sunglow, Chandivali",
+        1
+      ],
+      [
+        "Sundew CHS, Chandivali",
+        1
+      ],
+      [
+        "Sumit Greendale, Chikhal Dongari",
+        1
+      ],
+      [
+        "Nicon Infinity, Vasai East",
+        1
+      ],
+      [
+        "Man Opus, Mira Road East",
+        1
+      ],
+      [
+        "Nem Vihar, Mulund West",
+        1
+      ],
+      [
+        "Dhanukar Wadi",
+        1
+      ],
+      [
+        "Dreams Complex, Bhandup West",
+        1
+      ],
+      [
+        "Dr Babasaheb Ambedkar Road, Mumbai",
+        1
+      ],
+      [
+        "Dosti Ambrosia, Wadala East",
+        1
+      ],
+      [
+        "Dina Bama Estate",
+        1
+      ],
+      [
+        "Dheeraj Valley Tower, Goregaon East",
+        1
+      ],
+      [
+        "Dheeraj Swapna Apartment, Pali Hill",
+        1
+      ],
+      [
+        "Dheeraj Kiran CHS Walad West, Sunder Nagar",
+        1
+      ],
+      [
+        "Dheeraj Hill View Tower, Thakur Village, Kandivali East",
+        1
+      ],
+      [
+        "Dattani Park",
+        1
+      ],
+      [
+        "Charkop Sector 6",
+        1
+      ],
+      [
+        "Datta Pada",
+        1
+      ],
+      [
+        "Dahisar West",
+        1
+      ],
+      [
+        "Dadar West",
+        1
+      ],
+      [
+        "Dadar East",
+        1
+      ],
+      [
+        "DLH Orchid, Andheri West",
+        1
+      ],
+      [
+        "Crescent Bay T3, Bhoiwada",
+        1
+      ],
+      [
+        "Cosmopolis Tower, Andheri West",
+        1
+      ],
+      [
+        "Chirag Nagar",
+        1
+      ],
+      [
+        "Dsk Madhuban, Sakinaka Junction",
+        1
+      ],
+      [
+        "Everard Nagar Co Operative Housing Society, Sion East",
+        1
+      ],
+      [
+        "Evershine Grandeur, Mindspace",
+        1
+      ],
+      [
+        "Evershine Nagar",
+        1
+      ],
+      [
+        "Green Gate Apartment, Pali Hill",
+        1
+      ],
+      [
+        "Grant Road",
+        1
+      ],
+      [
+        "Govandi Station Road",
+        1
+      ],
+      [
+        "Gokuldham",
+        1
+      ],
+      [
+        "Gokul Regency Apartment, Thakur Complex",
+        1
+      ],
+      [
+        "Gokul Gagan, Thakur Village, Kandivali East",
+        1
+      ],
+      [
+        "Godrej Prime, Chembur",
+        1
+      ],
+      [
+        "Ghatkopar",
+        1
+      ],
+      [
+        "Gemstar Symphony Apartment, Kandivali West",
+        1
+      ],
+      [
+        "Gaurav Heights, Kandivali West",
+        1
+      ],
+      [
+        "Gaurav Excellency, Mira Road",
+        1
+      ],
+      [
+        "Garden View Apartment, Aarey Milk Colony",
+        1
+      ],
+      [
+        "Gandhi Market",
+        1
+      ],
+      [
+        "Galassia, Kandarpada",
+        1
+      ],
+      [
+        "GSA Grandeur, Gokuldham",
+        1
+      ],
+      [
+        "Friends Colony",
+        1
+      ],
+      [
+        "Film City Road",
+        1
+      ],
+      [
+        "Chinmay Gaurang Infrastructure Old Panvel",
+        1
+      ],
+      [
+        "Chanchal Kalyan Complex, Yari Road",
+        1
+      ],
+      [
+        "Navi Mumbai-Khargar-Panvel",
+        1
+      ],
+      [
+        "Amar Nagar",
+        1
+      ],
+      [
+        "Auris Serenity, Adarsh Nagar",
+        1
+      ],
+      [
+        "Aspire, Thakur Village, Kandivali East",
+        1
+      ],
+      [
+        "Aspire, Kandivali East",
+        1
+      ],
+      [
+        "Ashok Van",
+        1
+      ],
+      [
+        "Anushakti Nagar",
+        1
+      ],
+      [
+        "Antop Hill",
+        1
+      ],
+      [
+        "Ambrosia Apartment, Borivali East",
+        1
+      ],
+      [
+        "Ambika Siddhi Apartment, Ghatkopar",
+        1
+      ],
+      [
+        "Altavista, Sion Trombay Road",
+        1
+      ],
+      [
+        "Chakala",
+        1
+      ],
+      [
+        "Alta Monte, Pathanwadi",
+        1
+      ],
+      [
+        "Alpine, Kandivali East",
+        1
+      ],
+      [
+        "Alpine Shapoorji Pallonji, Thakur Village, Kandivali East",
+        1
+      ],
+      [
+        "Alpine Apartments, Chembur East",
+        1
+      ],
+      [
+        "Akruti Aneri, Marol",
+        1
+      ],
+      [
+        "Aims Sea View, Indralok",
+        1
+      ],
+      [
+        "Aditi Apartment, Andheri West",
+        1
+      ],
+      [
+        "Acme Avenue, Kandivali West",
+        1
+      ],
+      [
+        "Auris Serenity, Link Road",
+        1
+      ],
+      [
+        "Azad Nagar Colaba",
+        1
+      ],
+      [
+        "Balkrishna, Goregaon East",
+        1
+      ],
+      [
+        "Ballerina Apartment, Lokhandwala Complex",
+        1
+      ],
+      [
+        "Century Bazaar",
+        1
+      ],
+      [
+        "Central Area",
+        1
+      ],
+      [
+        "Byculla West",
+        1
+      ],
+      [
+        "Blue Monarch, Marol",
+        1
+      ],
+      [
+        "Bindra Complex , Andheri East",
+        1
+      ],
+      [
+        "Bhoomi Elegant, Thakur Complex",
+        1
+      ],
+      [
+        "Bhoiwada",
+        1
+      ],
+      [
+        "Bhayandar East",
+        1
+      ],
+      [
+        "Bharat Ark, Andheri West",
+        1
+      ],
+      [
+        "Bhandup Village",
+        1
+      ],
+      [
+        "Bhandup",
+        1
+      ],
+      [
+        "Bhakti Park, Bhakti Park",
+        1
+      ],
+      [
+        "Bhairav Residency, Mira Road",
+        1
+      ],
+      [
+        "Beverly Park",
+        1
+      ],
+      [
+        "Best Nagar Goregaon West",
+        1
+      ],
+      [
+        "Benzer Tower, Thakur Complex",
+        1
+      ],
+      [
+        "Band Stand, Bandra Band Stand",
+        1
+      ],
+      [
+        "Green Park Apartment, Millat Nagar",
+        1
+      ],
+      [
+        "Greenfields CHS, Andheri East",
+        1
+      ],
+      [
+        "HDIL Metropolis, 4 Bunglows",
+        1
+      ],
+      [
+        "Mahatama Gandhi Road",
+        1
+      ],
+      [
+        "Manibhadra Avenue, Morya Nagar",
+        1
+      ],
+      [
+        "Manavsthal, Andheri East",
+        1
+      ],
+      [
+        "90 ft road",
+        1
+      ],
+      [
+        "Man Opus, Mira Road",
+        1
+      ],
+      [
+        "Mamletdarwadi",
+        1
+      ],
+      [
+        "Mahindra Vivante, Chakala",
+        1
+      ],
+      [
+        "Mahim",
+        1
+      ],
+      [
+        "Mahavir Nagar",
+        1
+      ],
+      [
+        "Magnum Tower CHS, Lokhandwala Complex",
+        1
+      ],
+      [
+        "HDIL Metropolis, Andheri West",
+        1
+      ],
+      [
+        "Madhugiri Society, Chembur",
+        1
+      ],
+      [
+        "MJ Shah Centrio, Chembur",
+        1
+      ],
+      [
+        "Lodha casa rio",
+        1
+      ],
+      [
+        "Lodha Venezia, Parel",
+        1
+      ],
+      [
+        "Lodha New Cuffe Parade, Bhakti Park",
+        1
+      ],
+      [
+        "Lodha NCP Commercial , Wadala",
+        1
+      ],
+      [
+        "Lodha Fiorenza, Goregaon East",
+        1
+      ],
+      [
+        "Lodha Eternis, Chakala MIDC",
+        1
+      ],
+      [
+        "Marathon Embryo, Bhandup West",
+        1
+      ],
+      [
+        "Marigold-5, Beverly Park",
+        1
+      ],
+      [
+        "Marine Palace, Marine Lines",
+        1
+      ],
+      [
+        "Matunga East",
+        1
+      ],
+      [
+        "Nalasopara West",
+        1
+      ],
+      [
+        "Naigaon East",
+        1
+      ],
+      [
+        "Nahar Jonquille and Jamaica, Chandivali",
+        1
+      ],
+      [
+        "NG Royal Park, Kanjurmarg East",
+        1
+      ],
+      [
+        "Mumbai Central",
+        1
+      ],
+      [
+        "Mulund Railway Station",
+        1
+      ],
+      [
+        "Mukund Nagar",
+        1
+      ],
+      [
+        "Mount Mary",
+        1
+      ],
+      [
+        "Montana Giona, Moti Nagar",
+        1
+      ],
+      [
+        "Model Town",
+        1
+      ],
+      [
+        "Mira Bhayandar",
+        1
+      ],
+      [
+        "Mindspace, Mindspace",
+        1
+      ],
+      [
+        "Milap CHS, Seven Bungalows",
+        1
+      ],
+      [
+        "Midas PMGP Mhada Colony, PMGP Colony",
+        1
+      ],
+      [
+        "Mazgaon",
+        1
+      ],
+      [
+        "Mayuresh Srishti, Bhandup West",
+        1
+      ],
+      [
+        "Mayfair Sonata Greens, Park Site Colony",
+        1
+      ],
+      [
+        "Lodha Bel Air, Jogeshwari West",
+        1
+      ],
+      [
+        "Llyod Estate, Wadala",
+        1
+      ],
+      [
+        "Leo Ratnakar, Mahavir Nagar",
+        1
+      ],
+      [
+        "Kanakia Paris, Bandra Kurla Complex",
+        1
+      ],
+      [
+        "Kamla Nagar",
+        1
+      ],
+      [
+        "Kalpataru Towers, Akurli Nagar",
+        1
+      ],
+      [
+        "Kabra Metro One, Seven Bungalows",
+        1
+      ],
+      [
+        "Juveria Apartment, Mazgaon",
+        1
+      ],
+      [
+        "Jumbo Darshan , Andheri East",
+        1
+      ],
+      [
+        "Jankalyan Nagar",
+        1
+      ],
+      [
+        "JL Tambe Nagar",
+        1
+      ],
+      [
+        "Ishwardas Bhuvan CHS, Kandivali East",
+        1
+      ],
+      [
+        "IC Colony",
+        1
+      ],
+      [
+        "Hudco Living Point, Bhandup West",
+        1
+      ],
+      [
+        "Hiranandani Verona Co op Housing Society Ltd, Powai",
+        1
+      ],
+      [
+        "Hiranandani Regent Hill, Hiranandani Gardens",
+        1
+      ],
+      [
+        "Hiral Greens, Mira Road East",
+        1
+      ],
+      [
+        "Hindu Colony",
+        1
+      ],
+      [
+        "Hillcrest, Chakala MIDC",
+        1
+      ],
+      [
+        "Hari Kunj II, Sindhi Society Chembur",
+        1
+      ],
+      [
+        "HDIL Premier Residences, Kurla West",
+        1
+      ],
+      [
+        "Kanakia Hollywood, Sai Nagar",
+        1
+      ],
+      [
+        "Kanakia Rainforest, Marol",
+        1
+      ],
+      [
+        "Lal Baug",
+        1
+      ],
+      [
+        "Kanakia Sanskruti, Thakur Complex",
+        1
+      ],
+      [
+        "Lakshchandi Height, Goregaon East",
+        1
+      ],
+      [
+        "Laksharia Tower, Andheri West",
+        1
+      ],
+      [
+        "Lake Primrose, Powai",
+        1
+      ],
+      [
+        "Lake Primrose, Chandivali",
+        1
+      ],
+      [
+        "Lake Florence, Powai",
+        1
+      ],
+      [
+        "Lake Bloom, Powai",
+        1
+      ],
+      [
+        "L&T Emerald Isle, Chandivali",
+        1
+      ],
+      [
+        "Kings Circle",
+        1
+      ],
+      [
+        "Khar West",
+        1
+      ],
+      [
+        "Ketki Pada",
+        1
+      ],
+      [
+        "Keshav Srishti, Bhandup West",
+        1
+      ],
+      [
+        "Kenmore Apartment, Lokhandwala Complex",
+        1
+      ],
+      [
+        "Kaustubh Platinum, Datta Pada",
+        1
+      ],
+      [
+        "Kanungos Garden City, Mira Road East",
+        1
+      ],
+      [
+        "Kanjurmarg West",
+        1
+      ],
+      [
+        "Kandivali East",
+        1
+      ],
+      [
+        "Kanakia Sevens, Marol Maroshi Road",
+        1
+      ],
+      [
+        "vanamali chs ghatla, Ghatla",
+        1
+      ]
+    ]
+  },
+  "options": {
+    "Area Type": [
+      "Super Area",
+      "Carpet Area"
+    ],
+    "City": [
+      "Chennai",
+      "Bangalore",
+      "Hyderabad",
+      "Mumbai",
+      "Delhi",
+      "Kolkata"
+    ],
+    "Furnishing Status": [
+      "Semi-Furnished",
+      "Unfurnished",
+      "Furnished"
+    ],
+    "Tenant Preferred": [
+      "Bachelors/Family",
+      "Bachelors",
+      "Family"
+    ],
+    "Point of Contact": [
+      "Contact Owner",
+      "Contact Agent"
+    ]
+  },
+  "default_posted_month": 6,
+  "limits": {
+    "BHK": 6,
+    "Bathroom": 7,
+    "Size": 6000,
+    "Total_Floors": 71
+  },
+  "global_importance": {
+    "City": 0.237,
+    "Point of contact": 0.1909,
+    "Size": 0.1178,
+    "Bathrooms": 0.1094,
+    "Room mix": 0.0831,
+    "Floor": 0.08,
+    "Furnishing": 0.0584,
+    "BHK": 0.0475,
+    "Locality": 0.0243,
+    "Area type": 0.0225,
+    "Listing month": 0.015,
+    "Tenant preferred": 0.0141
+  },
+  "sklearn_version": "1.7.2",
+  "xgboost_version": "3.2.0"
+}

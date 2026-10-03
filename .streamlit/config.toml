@@ -1,0 +1,18 @@
+[theme]
+base = "light"
+primaryColor = "#14544A"
+backgroundColor = "#FBFAF7"
+secondaryBackgroundColor = "#F4F2EB"
+textColor = "#14161A"
+linkColor = "#14544A"
+borderColor = "#E4E0D8"
+baseRadius = "small"
+font = "Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"
+headingFont = "Newsreader, Georgia, Times New Roman, serif"
+baseFontSize = 15
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

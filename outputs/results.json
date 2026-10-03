@@ -1,0 +1,141 @@
+{
+  "preprocessing": {
+    "rows_raw": 4746,
+    "nulls": 0,
+    "duplicates": 0,
+    "q1": 10000.0,
+    "q3": 33000.0,
+    "upper_cutoff": 102000.0,
+    "rows_clean": 4466,
+    "rows_removed": 280
+  },
+  "split": {
+    "train": 3572,
+    "test": 894
+  },
+  "models": {
+    "Voting Ensemble": {
+      "R2": 0.7703327784149332,
+      "R2_log": 0.7955239390695591,
+      "RMSE": 9419.056037617436,
+      "MAE": 5551.683210988029,
+      "MAPE": 27.529746954949818,
+      "CV_R2_mean": 0.7871843061917456,
+      "CV_R2_std": 0.003152219166160447
+    },
+    "Stacking Ensemble": {
+      "R2": 0.7703450480731069,
+      "R2_log": 0.7956331486090442,
+      "RMSE": 9418.804434143794,
+      "MAE": 5540.9195692629455,
+      "MAPE": 27.542266632652247,
+      "CV_R2_mean": 0.786757062716004,
+      "CV_R2_std": 0.0030270989232371198
+    },
+    "Gradient Boosting": {
+      "R2": 0.7527810672661186,
+      "R2_log": 0.7873096224223036,
+      "RMSE": 9772.3437681423,
+      "MAE": 5806.040815782355,
+      "MAPE": 28.338845470415485,
+      "CV_R2_mean": 0.7825321182240543,
+      "CV_R2_std": 0.0010631334784522671
+    },
+    "XGBoost": {
+      "R2": 0.7710646408509126,
+      "R2_log": 0.789554614181031,
+      "RMSE": 9404.036580939515,
+      "MAE": 5638.468780039674,
+      "MAPE": 27.993041835315136,
+      "CV_R2_mean": 0.7723146739403726,
+      "CV_R2_std": 0.001655129382799051
+    },
+    "Random Forest": {
+      "R2": 0.7665057307435976,
+      "R2_log": 0.7734384645152017,
+      "RMSE": 9497.208781714067,
+      "MAE": 5743.1202301952335,
+      "MAPE": 29.07375087170519,
+      "CV_R2_mean": 0.7676602671914309,
+      "CV_R2_std": 0.003513212770872561
+    },
+    "Linear Regression": {
+      "R2": 0.7153355848722397,
+      "R2_log": 0.7688613963696765,
+      "RMSE": 10486.352751620925,
+      "MAE": 6000.041385909398,
+      "MAPE": 29.360422605707747,
+      "CV_R2_mean": 0.7610206955289508,
+      "CV_R2_std": 0.007612958576935013
+    },
+    "Decision Tree": {
+      "R2": 0.7247529455442872,
+      "R2_log": 0.7169533452438632,
+      "RMSE": 10311.437469394115,
+      "MAE": 6343.663592471712,
+      "MAPE": 33.214841481574666,
+      "CV_R2_mean": 0.6942975102926493,
+      "CV_R2_std": 0.012899711933764286
+    }
+  },
+  "best_model": "Voting Ensemble",
+  "stacking_weights": {
+    "Linear Regression": 0.3215324338325882,
+    "Random Forest": 0.12615137980453983,
+    "Gradient Boosting": 0.2306458637851866,
+    "XGBoost": 0.3324938433875018
+  },
+  "residual_corr_log": {
+    "Linear Regression": {
+      "Linear Regression": 1.0,
+      "Random Forest": 0.8531,
+      "Gradient Boosting": 0.918,
+      "XGBoost": 0.8706
+    },
+    "Random Forest": {
+      "Linear Regression": 0.8531,
+      "Random Forest": 1.0,
+      "Gradient Boosting": 0.9244,
+      "XGBoost": 0.9403
+    },
+    "Gradient Boosting": {
+      "Linear Regression": 0.918,
+      "Random Forest": 0.9244,
+      "Gradient Boosting": 1.0,
+      "XGBoost": 0.9581
+    },
+    "XGBoost": {
+      "Linear Regression": 0.8706,
+      "Random Forest": 0.9403,
+      "Gradient Boosting": 0.9581,
+      "XGBoost": 1.0
+    }
+  },
+  "xgb_importance_top15": {
+    "Point of Contact = Contact Agent": 0.33498233556747437,
+    "Point of Contact = Contact Owner": 0.2956729829311371,
+    "Bathroom": 0.09038373827934265,
+    "City = Mumbai": 0.06773044914007187,
+    "Rooms_Total": 0.03046914003789425,
+    "BHK": 0.012682128697633743,
+    "Log_Size": 0.012072660028934479,
+    "City = Kolkata": 0.00880296342074871,
+    "Furnishing Status = Furnished": 0.008664805442094803,
+    "Size": 0.008062287233769894,
+    "Total_Floors": 0.007727011572569609,
+    "City = Hyderabad": 0.007197130937129259,
+    "City = Delhi": 0.007060444913804531,
+    "Furnishing Status = Unfurnished": 0.005193517543375492,
+    "Area Locality = (rare localities)": 0.003956917207688093
+  },
+  "figures": {
+    "2.1": "fig_2_1_rent_distribution.png",
+    "2.2": "fig_2_2_city_boxplot.png",
+    "2.3": "fig_2_3_correlation.png",
+    "2.4": "fig_2_4_median_bhk_furnishing.png",
+    "5.1": "fig_5_1_model_comparison.png",
+    "5.2": "fig_5_2_actual_vs_predicted.png",
+    "5.3": "fig_5_3_feature_importance.png",
+    "5.4": "fig_5_4_residuals.png"
+  }
+}
