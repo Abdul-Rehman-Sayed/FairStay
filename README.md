@@ -7,8 +7,6 @@ details, compares single models against bagging, boosting, voting and stacking
 ensembles, and serves the result as a Streamlit app that estimates a fair rent
 range and judges an asking rent against it.
 
-Built for **BAI702 (Machine Learning II)**.
-
 ---
 
 ## Dataset
