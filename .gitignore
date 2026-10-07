@@ -7,9 +7,7 @@ venv/
 .ipynb_checkpoints/
 .DS_Store
 
-# Editor
 .vscode/
 
-# Coursework report and Word lock files
 *.docx
 ~$*

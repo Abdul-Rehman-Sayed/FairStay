@@ -37,8 +37,8 @@ runs from ₹1,200 to ₹35,00,000 with a skewness of 21.4.
 ```bash
 pip install -r requirements.txt
 
-python rent_prediction.py   # clean, train 7 models, evaluate -> models/, outputs/
-streamlit run app.py        # the app
+python rent_prediction.py
+streamlit run app.py
 ```
 
 Training takes about a minute. `models/` and `outputs/` are committed, so
